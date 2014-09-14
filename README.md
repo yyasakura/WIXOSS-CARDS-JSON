@@ -1,40 +1,40 @@
 #WIXOSS-CARDS-JSON
 
-##ŠT—v
+##æ¦‚è¦
 
-[WIXOSS][]‚ÌƒJ[ƒhƒf[ƒ^‚ðJSONƒf[ƒ^‰»B
+[WIXOSS][]ã®ã‚«ãƒ¼ãƒ‰ãƒ‡ãƒ¼ã‚¿ã‚’JSONãƒ‡ãƒ¼ã‚¿åŒ–ã€‚
 
-¦[WIXOSS][]‚ÍŠ”Ž®‰ïŽÐƒ^ƒJƒ‰ƒgƒ~[‚©‚ç”Ì”„‚³‚ê‚Ä‚¢‚éTCGiƒgƒŒ[ƒfƒBƒ“ƒOƒJ[ƒhƒQ[ƒ€jB
-
-
-##XV—š—ð
-
-* 2014.09.14: ŒöŠJ
+â€»[WIXOSS][]ã¯æ ªå¼ä¼šç¤¾ã‚¿ã‚«ãƒ©ãƒˆãƒŸãƒ¼ã‹ã‚‰è²©å£²ã•ã‚Œã¦ã„ã‚‹TCGï¼ˆãƒˆãƒ¬ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã‚«ãƒ¼ãƒ‰ã‚²ãƒ¼ãƒ ï¼‰ã€‚
 
 
-##JSONƒf[ƒ^‚ÌŒ©•û
+##æ›´æ–°å±¥æ­´
 
-| Key      | “à—e                                     |
+* 2014.09.14: å…¬é–‹
+
+
+##JSONãƒ‡ãƒ¼ã‚¿ã®è¦‹æ–¹
+
+| Key      | å†…å®¹                                     |
 |---------:|:-----------------------------------------|
-| id       | ƒJ[ƒhIDiŒöŽ®ƒTƒCƒg‚ÌƒJ[ƒhÚ×URL‚æ‚èj|
-| no       | ƒiƒ“ƒoƒŠƒ“ƒO                             |
-| name     | ƒJ[ƒh–¼Ì                               |
-| ruby     | ƒJ[ƒh–¼ÌiƒJƒij                       |
-| rarity   | ƒŒƒAƒŠƒeƒB                               |
-| category | ƒJ[ƒhŽí—Þ                               |
-| type     | ƒJ[ƒhƒ^ƒCƒv                             |
-| color    | F                                       |
-| level    | ƒŒƒxƒ‹                                   |
-| glow     | ƒOƒƒEƒRƒXƒg                             |
-| cost     | ƒRƒXƒg                                   |
-| limit    | ƒŠƒ~ƒbƒg                                 |
-| power    | ƒpƒ[                                   |
-| term     | ŒÀ’èðŒ                                 |
-| guard    | ƒK[ƒh                                   |
-| skill    | ƒXƒLƒ‹                                   |
-| burst    | ƒ‰ƒCƒtƒo[ƒXƒg                           |
-| comment  | ƒJ[ƒh‚ÌƒZƒŠƒt“™                         |
-| illust   | ƒCƒ‰ƒXƒgƒŒ[ƒ^[                         |
+| id       | ã‚«ãƒ¼ãƒ‰IDï¼ˆå…¬å¼ã‚µã‚¤ãƒˆã®ã‚«ãƒ¼ãƒ‰è©³ç´°URLã‚ˆã‚Šï¼‰|
+| no       | ãƒŠãƒ³ãƒãƒªãƒ³ã‚°                             |
+| name     | ã‚«ãƒ¼ãƒ‰åç§°                               |
+| ruby     | ã‚«ãƒ¼ãƒ‰åç§°ï¼ˆã‚«ãƒŠï¼‰                       |
+| rarity   | ãƒ¬ã‚¢ãƒªãƒ†ã‚£                               |
+| category | ã‚«ãƒ¼ãƒ‰ç¨®é¡ž                               |
+| type     | ã‚«ãƒ¼ãƒ‰ã‚¿ã‚¤ãƒ—                             |
+| color    | è‰²                                       |
+| level    | ãƒ¬ãƒ™ãƒ«                                   |
+| glow     | ã‚°ãƒ­ã‚¦ã‚³ã‚¹ãƒˆ                             |
+| cost     | ã‚³ã‚¹ãƒˆ                                   |
+| limit    | ãƒªãƒŸãƒƒãƒˆ                                 |
+| power    | ãƒ‘ãƒ¯ãƒ¼                                   |
+| term     | é™å®šæ¡ä»¶                                 |
+| guard    | ã‚¬ãƒ¼ãƒ‰                                   |
+| skill    | ã‚¹ã‚­ãƒ«                                   |
+| burst    | ãƒ©ã‚¤ãƒ•ãƒãƒ¼ã‚¹ãƒˆ                           |
+| comment  | ã‚«ãƒ¼ãƒ‰ã®ã‚»ãƒªãƒ•ç­‰                         |
+| illust   | ã‚¤ãƒ©ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¿ãƒ¼                         |
 
 
 [wixoss]: http://www.takaratomy.co.jp/products/wixoss/ "WIXOSS"
