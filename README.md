@@ -9,7 +9,12 @@
 
 ##更新履歴
 
+* 2014.09.16: デモ（使用例サンプル）追加
 * 2014.09.14: 公開
+
+
+##デモ（使用例サンプル）
+[http://digi-popeye.jp/sample/WIXOSS-CARDS-JSON/index.html](http://digi-popeye.jp/sample/WIXOSS-CARDS-JSON/index.html)
 
 
 ##JSONデータの見方

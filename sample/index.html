@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja" ng-app="MyApp">
+<head>
+<meta charset="UTF-8">
+<title>WIXOSS-CARDS-JSON - Sample</title>
+<style>
+body {
+	line-height: 1.6;
+}
+p {
+	margin: 0;
+}
+.cards {
+	margin-top: 1em;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0;
+}
+.cards th,
+.cards td {
+	position: relative;
+	padding: 5px 10px;
+	border: 1px solid #D4D4D4;
+	font-size: 12px;
+}
+.cards thead tr {
+	background: #E5E5E5;;
+}
+.cards thead .sort:hover {
+	background: #bde4fa;
+	cursor: pointer;
+}
+.cards tbody tr:nth-child(even) {
+	background: #F0F0F0;
+}
+.cards tbody tr:hover {
+	background: #bde4fa;
+}
+.cards tbody td:hover {
+	background: #87CEFA;
+}
+.cards .balloon {
+	display: none;
+	position: absolute;
+	bottom: 100%;
+	left: -10px;
+	width: 150px;
+	margin-bottom: 5px;
+	padding: 5px 10px;
+	border: 1px solid #CCCCCC;
+	background: #fffbbb;
+	border-radius: 3px;
+}
+.cards td:hover .balloon {
+	display: block;
+}
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-resource.min.js"></script>
+<script>
+var myapp = angular.module("MyApp", ["ngResource"]);
+myapp.controller("MyController", ["$scope","$resource",function($scope,$resource) {
+	var contents = $resource("./data.json");
+	$scope.order = "id";
+	$scope.cards = contents.query();
+	$scope.sort = function(str){
+		$scope.order = ($scope.order === str) ? '-'+str : str;
+	}
+}]);
+</script>
+</head>
+<body ng-controller="MyController">
+
+<h1>WIXOSS-CARDS-JSON - Sample</h1>
+
+<p class="filter">Filter: <input ng-model="keyword" type="text" placeholder="Keyword" /></p>
+
+<table class="cards">
+<thead>
+<tr>
+	<th class="sort" ng-click="sort('id');">ID</th>
+	<th class="sort" ng-click="sort('no');">No.</th>
+	<th class="sort" ng-click="sort('name');">名称</th>
+	<th class="sort" ng-click="sort('rarity');">レアリティ</th>
+	<th class="sort" ng-click="sort('category');">種類</th>
+	<th class="sort" ng-click="sort('type');">タイプ</th>
+	<th class="sort" ng-click="sort('color');">色</th>
+	<th class="sort" ng-click="sort('level');">レベル</th>
+	<th>グロウ</th>
+	<th>コスト</th>
+	<th class="sort" ng-click="sort('limit');">リミット</th>
+	<th class="sort" ng-click="sort('power');">パワー</th>
+	<th class="sort" ng-click="sort('term');">条件</th>
+	<th class="sort" ng-click="sort('guard');">ガード</th>
+	<th class="sort" ng-click="sort('burst.comment');">バースト</th>
+	<th class="sort" ng-click="sort('skill.comment');">スキル</th>
+	<th class="sort" ng-click="sort('skill.regular.comment');">スキル：常</th>
+	<th class="sort" ng-click="sort('skill.arrival.comment');">スキル：出</th>
+	<th class="sort" ng-click="sort('skill.starting.comment');">スキル：起</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="card in cards | orderBy:order | filter:keyword">
+	<th>{{card.id || "－"}}</th>
+	<td>{{card.no || "－"}}</td>
+	<td>{{card.name || "－"}}<div ng-if="card.ruby" class="balloon">{{ card.ruby }}</div></td>
+	<td>{{card.rarity || "－"}}</td>
+	<td>{{card.category || "－"}}</td>
+	<td>{{card.type || "－"}}</td>
+	<td>{{card.color || "－"}}</td>
+	<td>{{card.level || "－"}}</td>
+	<td ng-if="card.glow"><p ng-repeat="(key, value) in card.glow">{{ key+"×"+value }}</p></td>
+	<td ng-if="!card.glow">－</td>
+	<td ng-if="card.cost"><p ng-repeat="(key, value) in card.cost">{{ key+"×"+value }}</p></td>
+	<td ng-if="!card.cost">－</td>
+	<td>{{card.limit || "－"}}</td>
+	<td>{{card.power || "－"}}</td>
+	<td>{{card.term || "－"}}</td>
+	<td>{{ (card.guard) ? "○" : "－" }}</td>
+	<td ng-if="card.burst">○<div class="balloon">{{ card.burst.comment }}</div></td>
+	<td ng-if="!card.burst">－</td>
+	<td ng-if="card.skill.comment">○<div class="balloon">{{ card.skill.comment }}</div></td>
+	<td ng-if="!card.skill.comment">－</td>
+	<td ng-if="card.skill.regular.comment">○<div class="balloon">{{ card.skill.regular.comment }}</div></td>
+	<td ng-if="!card.skill.regular.comment">－</td>
+	<td ng-if="card.skill.arrival.comment">○<div class="balloon">{{ card.skill.arrival.comment }}</div></td>
+	<td ng-if="!card.skill.arrival.comment">－</td>
+	<td ng-if="card.skill.starting.comment">○<div class="balloon">{{ card.skill.starting.comment }}</div></td>
+	<td ng-if="!card.skill.starting.comment">－</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>
