@@ -11569,5 +11569,1164 @@
 		"burst": null,
 		"comment": "ごうごう、新しき赤の力。",
 		"illust": "ジョンディー"
+	},
+	{
+		"id": 393,
+		"no": "WD06-001",
+		"name": "エルドラ＝マークⅣ´",
+		"ruby": "エルドラマークフォーダッシュ",
+		"rarity": "ST",
+		"category": "ルリグ",
+		"type": "エルドラ",
+		"color": "青",
+		"level": 4,
+		"glow": {
+			"青": 3
+		},
+		"cost": null,
+		"limit": "11",
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのライフバーストが発動するたび、カードを1枚引く。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ジャッジャーン！エルドラゴールデンハンマー！　～エルドラ～",
+		"illust": "ナダレ"
+	},
+	{
+		"id": 394,
+		"no": "WD06-002",
+		"name": "エルドラ＝マークⅢ´",
+		"ruby": "エルドラマークスリーダッシュ",
+		"rarity": "ST",
+		"category": "ルリグ",
+		"type": "エルドラ",
+		"color": "青",
+		"level": 3,
+		"glow": {
+			"青": 2
+		},
+		"cost": null,
+		"limit": "7",
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのライフクロスの上からカードを2枚見る。その後、それらを好きな順番で戻す。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ややこしいからたのしいんすよ。　～エルドラ～",
+		"illust": "蟹丹"
+	},
+	{
+		"id": 395,
+		"no": "WD06-003",
+		"name": "エルドラ＝マークⅡ´",
+		"ruby": "エルドラマークツーダッシュ",
+		"rarity": "ST",
+		"category": "ルリグ",
+		"type": "エルドラ",
+		"color": "青",
+		"level": 2,
+		"glow": {
+			"青": 1
+		},
+		"cost": null,
+		"limit": "4",
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのすべての青のシグニのパワーを＋1000する。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "さぁそういくんですわー！　～エルドラ～",
+		"illust": "ナダレ"
+	},
+	{
+		"id": 396,
+		"no": "WD06-004",
+		"name": "エルドラ＝マークⅠ´",
+		"ruby": "エリドラマークワンダッシュ",
+		"rarity": "ST",
+		"category": "ルリグ",
+		"type": "エルドラ",
+		"color": "青",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": "1",
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "カードを1枚引く。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "こんちわっす。　～エルドラ～",
+		"illust": "百円ライター"
+	},
+	{
+		"id": 397,
+		"no": "WD06-005",
+		"name": "エルドラ＝マーク０",
+		"ruby": "エルドラマークゼロ",
+		"rarity": "ST",
+		"category": "ルリグ",
+		"type": "エルドラ",
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": "0",
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "私を選んだあなたに私は選ばれたんすよ。　～エルドラ～",
+		"illust": "パトリシア"
+	},
+	{
+		"id": 398,
+		"no": "WD06-006",
+		"name": "クロス・クラッシュ・フラッシュ",
+		"ruby": "クロスクラッシュフラッシュ",
+		"rarity": "ST",
+		"category": "アーツ",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"青": 1,
+			"無": 1
+		},
+		"limit": null,
+		"power": 0,
+		"term": "エルドラ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング\n【メインフェイズ】\n対戦相手はライフクロスの一番上を公開する。そのカードが【ライフバースト】を持たない場合、それをトラッシュに置く。"
+		},
+		"burst": null,
+		"comment": "ばっちん！",
+		"illust": "パトリシア"
+	},
+	{
+		"id": 399,
+		"no": "WD06-007",
+		"name": "サプライズ・ウィズ・ミー",
+		"ruby": "サプライズウィズミー",
+		"rarity": "ST",
+		"category": "アーツ",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 0,
+		"term": "エルドラ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング\n【メインフェイズ】【アタックフェイズ】\nあなたのライフクロスの上からカードを4枚まで見る。その後、それらを好きな順番で戻す。"
+		},
+		"burst": null,
+		"comment": "ででん！",
+		"illust": "I☆LA"
+	},
+	{
+		"id": 400,
+		"no": "WD06-008",
+		"name": "バツ・エニー・アザー",
+		"ruby": "バツエニーアザー",
+		"rarity": "ST",
+		"category": "アーツ",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"青": 3
+		},
+		"limit": null,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング\n【アタックフェイズ】\n数字一つを宣言する。あなたのライフクロスの一番上を公開する。そのカードがあなたの宣言した数字と同じレベルのシグニの場合、このターン、あなたのライフクロスはクラッシュされない。\nターン終了時に、あなたのライフクロスの一番上をトラッシュに置く。"
+		},
+		"burst": null,
+		"comment": "どばーっ！",
+		"illust": "蟹丹"
+	},
+	{
+		"id": 401,
+		"no": "WD06-009",
+		"name": "幻水　シィラ",
+		"ruby": "ゲンスイシィラ",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精生：水獣",
+		"color": "青",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 12000,
+		"term": "エルドラ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのライフクロスが対戦相手より少ないかぎり、あなたのすべてのシグニのパワーを＋1000する。"
+			},
+			"arrival": {
+				"cost": {
+					"青": 1
+				},
+				"comment": "あなたのライフクロス1枚をクラッシュする。この方法でチェックゾーンに置かれたカードがエナゾーンに置かれる場合、代わりにそれをトラッシュへ置きあなたのデッキの一番上のカードをライフクロスに加える。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "カードを2枚引く。その後、手札を1枚捨てる。"
+		},
+		"comment": "初めまして、今そこにいるあなたさん。　～シィラ～",
+		"illust": "村上ゆいち"
+	},
+	{
+		"id": 402,
+		"no": "WD06-010",
+		"name": "幻水　オクト",
+		"ruby": "ゲンスイオクト",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精生：水獣",
+		"color": "青",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 8000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場に他の＜水獣＞のシグニがあるかぎり、このシグニのパワーは12000になる。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "暇だったので。　～オクト～",
+		"illust": "蟹丹"
+	},
+	{
+		"id": 403,
+		"no": "WD06-011",
+		"name": "幻水　リュウグウ",
+		"ruby": "ゲンスイリュウグウ",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精生：水獣",
+		"color": "青",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 7000,
+		"term": "エルドラ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "あなたのライフクロス1枚を手札に加える。そうした場合、あなたのデッキの一番上のカードをライフクロスに加える。（カードを移動させる場合は上から順番に加えたり減らしたりする）"
+			},
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのライフクロスの一番上のカードを手札に加える。そうした場合、手札を1枚ライフクロスに加える。"
+		},
+		"comment": "願の奔流はきっと私を浮世につれていってくれるわ。　～リュウグウ～",
+		"illust": "北熊"
+	},
+	{
+		"id": 404,
+		"no": "WD06-012",
+		"name": "幻水　パール",
+		"ruby": "ゲンスイパール",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精生：水獣",
+		"color": "青",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 5000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場に他の＜水獣＞のシグニがあるかぎり、このシグニのパワーは8000になる。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "あなたならいいかな。　～パール～",
+		"illust": "I☆LA"
+	},
+	{
+		"id": 405,
+		"no": "WD06-013",
+		"name": "幻水　チョウアン",
+		"ruby": "ゲンスイチョウアン",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精生：水獣",
+		"color": "青",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 3000,
+		"term": "エルドラ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "デッキの一番上のカードをライフクロスに加える。（カードを移動させる場合は上から順番に加えたり減らしたりする）"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "わーやー！ひきずりださないでー　～チョウアン～",
+		"illust": "かにかま"
+	},
+	{
+		"id": 406,
+		"no": "WD06-014",
+		"name": "幻水　コザメ",
+		"ruby": "ゲンスイコザメ",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精生：水獣",
+		"color": "青",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 2000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場に他の＜水獣＞のシグニがあるかぎり、このシグニのパワーは5000になる。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ここはおもったよりいいところね。　～コザメ～",
+		"illust": "CH@R"
+	},
+	{
+		"id": 407,
+		"no": "WD06-015",
+		"name": "幻水　ウナ",
+		"ruby": "ゲンスイウナ",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精生：水獣",
+		"color": "青",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 1000,
+		"term": "エルドラ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのライフクロスの一番上を見る。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ビリビリビリビリビリっ　～ウナ～",
+		"illust": "CH@R"
+	},
+	{
+		"id": 408,
+		"no": "WD06-016",
+		"name": "サーバント　Ｑ",
+		"ruby": "サーバントキャトル",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 12000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "少女たちの戦いは続く。",
+		"illust": "村上ゆいち"
+	},
+	{
+		"id": 409,
+		"no": "WD06-017",
+		"name": "サーバント　Ｏ",
+		"ruby": "サーバントワン",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 2000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "願い、戦い、果てに起こる変化で、幸せになれるのか。",
+		"illust": "トリダモノ"
+	},
+	{
+		"id": 410,
+		"no": "WD06-018",
+		"name": "ＰＬＵＳ　ＲＵＳＨ",
+		"ruby": "プラスラッシュ",
+		"rarity": "ST",
+		"category": "スペル",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 0,
+		"term": "エルドラ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "対戦相手のライフクロスの一番上を見る。あなたはそれをトラッシュに置いてもよい。そうした場合、対戦相手はデッキの一番上のカードをライフクロスに加える。\nあなたはカードを1枚引く。"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキから[ライフバースト]を持つシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"comment": "一閃瞬間、永らえる槍のごとく。",
+		"illust": "松本エイト"
+	},
+	{
+		"id": 411,
+		"no": "PR-057",
+		"name": "デス・ブーケトス (ビッグガンガン10月号 付録)",
+		"ruby": "デスブーケトス",
+		"rarity": "PR",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 3
+		},
+		"limit": null,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\nこのターン、あなたがリフレッシュをしたとき、それがこのターンであなたの最初のリフレッシュである場合、対戦相手のライフクロスを1枚をクラッシュする。"
+		},
+		"burst": null,
+		"comment": "ふふっ、アナタに不幸のお裾分けよ",
+		"illust": "めきめき"
+	},
+	{
+		"id": 412,
+		"no": "PR-058",
+		"name": "サルベージ (ビッグガンガン10月号 付録)",
+		"ruby": "サルベージ",
+		"rarity": "PR",
+		"category": "アーツ",
+		"type": null,
+		"color": "無",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"無": 1
+		},
+		"limit": null,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\nあなたのトラッシュから、あなたのルリグと同じ色のシグニ1枚を手札に加える。"
+		},
+		"burst": null,
+		"comment": "朽ちたる魂よ、我が揺り籠にお戻りなさい",
+		"illust": "めきめき"
+	},
+	{
+		"id": 413,
+		"no": "WD07-001",
+		"name": "フル/メイデン　イオナ",
+		"ruby": "フルメイデンイオナ",
+		"rarity": "ST",
+		"category": "ルリグ",
+		"type": "イオナ",
+		"color": "黒",
+		"level": 4,
+		"glow": {
+			"黒": 2,
+			"白": 1
+		},
+		"cost": null,
+		"limit": "11",
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手のシグニは可能ならばアタックしなければならない。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": {
+					"黒": 1
+				},
+				"comment": "対戦相手のシグニ1体をトラッシュに置く。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ねえ、ほら。振り向いてよ。　～イオナ～",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 414,
+		"no": "WD07-002",
+		"name": "ペイル/メイデン　イオナ",
+		"ruby": "ペイルメイデンイオナ",
+		"rarity": "ST",
+		"category": "ルリグ",
+		"type": "イオナ",
+		"color": "黒",
+		"level": 3,
+		"glow": {
+			"黒": 1,
+			"白": 1
+		},
+		"cost": null,
+		"limit": "7",
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手のシグニは可能ならばアタックしなければならない。"
+			},
+			"arrival": {
+				"cost": {
+					"黒": 1
+				},
+				"comment": "ターン終了時まで、対戦相手のすべてのシグニのパワーを－2000する。（パワーが0以下のシグニはバニッシュされる）"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "あなたと戦える幸福を。　～イオナ～",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 415,
+		"no": "WD07-003",
+		"name": "ハーフ/メイデン　イオナ",
+		"ruby": "ハーフメイデンイオナ",
+		"rarity": "ST",
+		"category": "ルリグ",
+		"type": "イオナ",
+		"color": "黒",
+		"level": 2,
+		"glow": {
+			"黒": 1
+		},
+		"cost": null,
+		"limit": "4",
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手のシグニは可能ならばアタックしなければならない。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ごうごう。",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 416,
+		"no": "WD07-004",
+		"name": "クレセント/メイデン　イオナ",
+		"ruby": "クレセントメイデンイオナ",
+		"rarity": "ST",
+		"category": "ルリグ",
+		"type": "イオナ",
+		"color": "黒",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": "1",
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手のシグニは可能ならばアタックしなければならない。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "願いの戦いは終わらない。終わらせない。",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 417,
+		"no": "WD07-005",
+		"name": "ゼロ/メイデン　イオナ",
+		"ruby": "ゼロメイデンイオナ",
+		"rarity": "ST",
+		"category": "ルリグ",
+		"type": "イオナ",
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": "0",
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "さあ、あなたの願いは？　～イオナ～",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 418,
+		"no": "WD07-006",
+		"name": "グレイブ・ナイト",
+		"ruby": "グレイブナイト",
+		"rarity": "ST",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 1
+		},
+		"limit": null,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング\n【メインフェイズ】\nあなたのデッキからレベルの異なるシグニを3枚まで探してトラッシュに置く。その後、デッキをシャッフルする。"
+		},
+		"burst": null,
+		"comment": "切り裂いた次元、遣われた時間。",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 419,
+		"no": "WD07-007",
+		"name": "ブラック・クライシス",
+		"ruby": "ブラッククライシス",
+		"rarity": "ST",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 1,
+			"白": 1
+		},
+		"limit": null,
+		"power": 0,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング\n【メインフェイズ 】\nあなたのデッキの上からカードを4枚トラッシュに置く。その中に黒のカードがある場合、あなたのトラッシュから黒のシグニ1枚を手札に加える。その中に白のカードがある場合、あなたのデッキから白のシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"burst": null,
+		"comment": "すべての地獄に次ぐ、魂の救済を。",
+		"illust": "トリダモノ"
+	},
+	{
+		"id": 420,
+		"no": "WD07-008",
+		"name": "デス・ビーム",
+		"ruby": "デスビーム",
+		"rarity": "ST",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 2,
+			"白": 2
+		},
+		"limit": null,
+		"power": 0,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング\n【メインフェイズ】【アタックフェイズ】\n対戦相手のシグニ1体をバニッシュする。"
+		},
+		"burst": null,
+		"comment": "くらいな・・・。　～イオナ～",
+		"illust": "篠"
+	},
+	{
+		"id": 421,
+		"no": "WD07-009",
+		"name": "コードメイズ　金字塔",
+		"ruby": "コードメイズピラミッド",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精械：迷宮",
+		"color": "白",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 7000,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手がシグニを配置する場合、可能ならばこのシグニの正面に配置しなければならない。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "デッキの上からカードを3枚見る。その中から白または黒のシグニ1枚を公開して手札に加える。その後、残りのカードを好きな順番でデッキの一番上に戻す。"
+			},
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキから黒のシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"comment": "やあ、あたらしい世界へようこそ！　～金字塔～",
+		"illust": "しおぼい"
+	},
+	{
+		"id": 422,
+		"no": "WD07-010",
+		"name": "コードメイズ　バベル",
+		"ruby": "コードメイズバベル",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精械：迷宮",
+		"color": "白",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 3000,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手がシグニを配置する場合、可能ならばこのシグニの正面に配置しなければならない。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "あなたのデッキからレベル3以下の黒のシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+			},
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "カードを1枚引く。"
+		},
+		"comment": "人が作りし精械、迷宮の名を冠す。",
+		"illust": "arihato"
+	},
+	{
+		"id": 423,
+		"no": "WD07-011",
+		"name": "コードメイズ　凱旋",
+		"ruby": "コードメイズガイセン",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精械：迷宮",
+		"color": "白",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 1000,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手がシグニを配置する場合、可能ならばこのシグニの正面に配置しなければならない。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "あなたのデッキからレベル2以下の黒のシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+			},
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "カードを1枚引く。"
+		},
+		"comment": "スットレート！　～凱旋～",
+		"illust": "かざあな"
+	},
+	{
+		"id": 424,
+		"no": "WD07-012",
+		"name": "コードアンチ　ヴィマナ",
+		"ruby": "コードアンチヴィマナ",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精械：古代兵器",
+		"color": "黒",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 12000,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手のシグニがアタックしたとき、そのシグニのパワーがそのシグニの正面にあるシグニのパワーより低い場合、アタックしたシグニをバニッシュする。"
+			},
+			"arrival": {
+				"cost": {
+					"黒": 1
+				},
+				"comment": "あなたのトラッシュからレベルの異なる＜古代兵器＞のシグニ4枚をデッキの一番下に好きな順番で戻す。そうした場合、ターン終了時まで、対戦相手のシグニ1体のパワーを－10000する。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "ターン終了時まで、対戦相手のシグニ1体のパワーを－10000する。"
+		},
+		"comment": "誰かが作りし精械、古代兵器の名を冠す。",
+		"illust": "コウサク"
+	},
+	{
+		"id": 425,
+		"no": "WD07-013",
+		"name": "コードアンチ　アイアン",
+		"ruby": "コードアンチアイアン",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精械：古代兵器",
+		"color": "黒",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 8000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場に他の＜古代兵器＞のシグニがあるかぎり、このシグニのパワーは12000になる。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "いたいいたい。苦しみの時間。",
+		"illust": "かざあな"
+	},
+	{
+		"id": 426,
+		"no": "WD07-014",
+		"name": "コードアンチ　モア",
+		"ruby": "コードアンチモア",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精械：古代兵器",
+		"color": "黒",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 5000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場に他の＜古代兵器＞のシグニがあるかぎり、このシグニのパワーは8000になる。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "不可視の現実、謎の芸。",
+		"illust": "よこえ"
+	},
+	{
+		"id": 427,
+		"no": "WD07-015",
+		"name": "コードアンチ　クレイ",
+		"ruby": "コードアンチクレイ",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精械：古代兵器",
+		"color": "黒",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 2000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場に他の＜古代兵器＞のシグニがあるかぎり、このシグニのパワーは5000になる。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "命を込めた土人形、私、ドグウってんだね！　～クレイ～",
+		"illust": "pepo"
+	},
+	{
+		"id": 428,
+		"no": "WD07-016",
+		"name": "サーバント　Ｑ２",
+		"ruby": "サーバントキューツー",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 10000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "この盾では護りきれないものも、ある。",
+		"illust": "単ル"
+	},
+	{
+		"id": 429,
+		"no": "WD07-017",
+		"name": "サーバント　Ｏ２",
+		"ruby": "サーバントオーツー",
+		"rarity": "ST",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": null,
+		"power": 1000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ちからの限り、守ります。",
+		"illust": "pepo"
+	},
+	{
+		"id": 430,
+		"no": "WD07-018",
+		"name": "スラッシュ・ミラクル",
+		"ruby": "スラッシュミラクル",
+		"rarity": "ST",
+		"category": "スペル",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 1,
+			"白": 1
+		},
+		"limit": null,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "どちらか１つを選ぶ。「あなたのデッキからシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。」「ターン終了時まで、対戦相手のシグニ1体のパワーを－8000する。」（パワーが0以下のシグニはバニッシュされる）"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "どちらか1つを選ぶ。「あなたのデッキから白のシグニ1枚を探して場に出す。その後、デッキをシャッフルする。」「あなたのトラッシュから黒のシグニ1枚を場に出す。」"
+		},
+		"comment": "これで、きっと。",
+		"illust": "bomi"
 	}
 ]
