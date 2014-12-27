@@ -992,7 +992,7 @@
 	{
 		"id": 32,
 		"no": "WX01-032",
-		"name": "SNATCHER",
+		"name": "ＳＮＡＴＣＨＥＲ",
 		"ruby": "スナッチャー",
 		"rarity": "SR",
 		"category": "スペル",
@@ -1429,7 +1429,7 @@
 	{
 		"id": 46,
 		"no": "WX01-046",
-		"name": "BAD CONDITION",
+		"name": "ＢＡＤ　ＣＯＮＤＩＴＩＯＮ",
 		"ruby": "バッドコンディション",
 		"rarity": "R",
 		"category": "スペル",
@@ -2265,8 +2265,8 @@
 		"level": 0,
 		"glow": null,
 		"cost": {
-			"白": 1,
-			"赤": 1
+			"赤": 1,
+			"白": 1
 		},
 		"limit": 0,
 		"power": 0,
@@ -2460,7 +2460,7 @@
 		"id": 81,
 		"no": "WX01-081",
 		"name": "コードアート　Ｔ・Ｖ",
-		"ruby": "コードアートテレウ゛ィジョン",
+		"ruby": "コードアートテレヴィジョン",
 		"rarity": "C",
 		"category": "シグニ",
 		"type": "精械：電機",
@@ -2549,7 +2549,7 @@
 	{
 		"id": 84,
 		"no": "WX01-084",
-		"name": "THREE OUT",
+		"name": "ＴＨＲＥＥ　ＯＵＴ",
 		"ruby": "スリーアウト",
 		"rarity": "C",
 		"category": "スペル",
@@ -2577,7 +2577,7 @@
 	{
 		"id": 85,
 		"no": "WX01-085",
-		"name": "FREEZE",
+		"name": "ＦＲＥＥＺＥ",
 		"ruby": "フリーズ",
 		"rarity": "C",
 		"category": "スペル",
@@ -4486,7 +4486,7 @@
 	{
 		"id": 151,
 		"no": "WD03-012",
-		"name": "コードアート　Ｊ・V",
+		"name": "コードアート　Ｊ・Ｖ",
 		"ruby": "コードアートジュブナイル",
 		"rarity": "ST",
 		"category": "シグニ",
@@ -4748,7 +4748,7 @@
 		"skill": {
 			"regular": {
 				"cost": null,
-				"comment": "あなたのカードはすべてライフバースト【エナチャ―ジ1】を持つ。"
+				"comment": "あなたのカードはすべて[ライフバースト]【エナチャ―ジ1】を持つ。"
 			},
 			"arrival": {
 				"cost": null,
@@ -4760,7 +4760,10 @@
 			},
 			"comment": null
 		},
-		"burst": null,
+		"burst": {
+			"cost": null,
+			"comment": null
+		},
 		"comment": "これが、私の答えだよ。　～遊月～",
 		"illust": "mado*pen"
 	},
@@ -4855,7 +4858,7 @@
 		},
 		"burst": null,
 		"comment": "今ここに、夢限少女が・・・・！",
-		"illust": "藤真卓哉"
+		"illust": "藤真拓哉"
 	},
 	{
 		"id": 163,
@@ -5199,7 +5202,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング【メインフェイズ】\nあなたのライフクロス1枚をクラッシュする。そのカードに[ライフバースト]がある場合、対戦相手のすべてのパワー10000以下のシグニをバニッシュする。"
+			"comment": "使用タイミング【メインフェイズ】\r\nあなたのライフクロス1枚をクラッシュする。そのカードに[ライフバースト]がある場合、対戦相手のすべてのパワー10000以下のシグニをバニッシュする。"
 		},
 		"burst": {
 			"cost": null,
@@ -5317,7 +5320,7 @@
 				"cost": {
 					"白": 2
 				},
-				"comment": "あなたのデッキから＜天使＞のシグニ1体を探して場に出す。その後、デッキをシャッフルする。"
+				"comment": "あなたのデッキから＜天使＞のシグニ1枚を探して場に出す。その後、デッキをシャッフルする。"
 			},
 			"starting": null,
 			"comment": null
@@ -5497,11 +5500,11 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "あなたの＜天使＞のシグニ1体をトラッシュに置く。そうした場合、あなたのデッキから＜天使＞のシグニを2体まで探して場に出す。その後、デッキをシャフルする。"
+			"comment": "あなたの＜天使＞のシグニ1体をトラッシュに置く。そうした場合、あなたのデッキから＜天使＞のシグニを2体まで探して場に出す。その後、デッキをシャッフルする。"
 		},
 		"burst": {
 			"cost": null,
-			"comment": "あなたのデッキから＜天使＞のシグニ1枚を探して場に出す。そのシグニの【出】の能力は発動しない。その後、デッキをシャッフルする。"
+			"comment": "あなたのデッキから＜天使＞のシグニ1枚を探して場に出す。そのシグニのの能力は発動しない。その後、デッキをシャッフルする。"
 		},
 		"comment": "再生の願い、犠牲無くては戻らぬことに。",
 		"illust": "ヒロヲノリ"
@@ -5563,7 +5566,7 @@
 		},
 		"burst": {
 			"cost": null,
-			"comment": "あなたのトラッシュから、黒のシグニ1枚を場に出す。そのシグニの【出】の能力は発動しない。"
+			"comment": "あなたのトラッシュから、黒のシグニ1枚を場に出す。そのシグニのの能力は発動しない。"
 		},
 		"comment": "数多の過去を刺し落とす剣。",
 		"illust": "トリダモノ"
@@ -5762,7 +5765,7 @@
 	{
 		"id": 192,
 		"no": "WX02-035",
-		"name": "コードアート　C・Ｐ・Ｕ",
+		"name": "コードアート　Ｃ・Ｐ・Ｕ",
 		"ruby": "コードアートシーピーユー",
 		"rarity": "R",
 		"category": "シグニ",
@@ -5794,7 +5797,7 @@
 	{
 		"id": 193,
 		"no": "WX02-036",
-		"name": "コードアート　G・Ｒ・Ｂ",
+		"name": "コードアート　Ｇ・Ｒ・Ｂ",
 		"ruby": "コードアートグラボ",
 		"rarity": "R",
 		"category": "シグニ",
@@ -6512,7 +6515,7 @@
 	{
 		"id": 217,
 		"no": "WX02-060",
-		"name": "SEARCHER",
+		"name": "ＳＥＡＲＣＨＥＲ",
 		"ruby": "サーチャー",
 		"rarity": "C",
 		"category": "スペル",
@@ -7674,7 +7677,7 @@
 		"skill": {
 			"regular": {
 				"cost": null,
-				"comment": "あなたの場に＜堕落の砲女　メツム＞があるかぎり、あなたのトラッシュが20枚以上ある間、あなたのすべてのシグニのパワーを＋2000する。"
+				"comment": "あなたの場に《堕落の砲女　メツム》があるかぎり、あなたのトラッシュが20枚以上ある間、あなたのすべてのシグニのパワーを＋2000する。"
 			},
 			"arrival": null,
 			"starting": null,
@@ -8029,7 +8032,7 @@
 		"cost": null,
 		"limit": 0,
 		"power": 1000,
-		"term": null,
+		"term": "ウリス限定",
 		"guard": null,
 		"skill": {
 			"regular": null,
@@ -8074,7 +8077,7 @@
 			"comment": "【エナチャージ1】"
 		},
 		"comment": "彼女は光のようにルリグを包み込む。",
-		"illust": "hitoto"
+		"illust": "hitoto*"
 	},
 	{
 		"id": 271,
@@ -8602,7 +8605,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\nあなたのすべてのシグニをトラッシュに置いてもよい。この方法でそれぞれがレベルの異なる3体のシグニがトラッシュに置かれた場合、対戦相手のすべてのシグニをバニッシュする。"
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\nあなたのすべてのシグニをトラッシュに置いても良い。この方法でそれぞれがレベルの異なる3体のシグニがトラッシュに置かれた場合、対戦相手のすべてのシグニをバニッシュする。"
 		},
 		"burst": null,
 		"comment": "こういう戦いを待っていたのじゃ。　～ウムル～",
@@ -8852,7 +8855,7 @@
 					"赤": 1,
 					"無": 1
 				},
-				"comment": "あなたのデッキから《手弾　アヤボン》1枚を探して場に出す。その後、デッキをシャフルする。"
+				"comment": "あなたのデッキから《手弾　アヤボン》1枚を探して場に出す。その後、デッキをシャッフルする。"
 			},
 			"starting": null,
 			"comment": null
@@ -9229,7 +9232,7 @@
 		"id": 309,
 		"no": "WX03-036",
 		"name": "焚発する知識",
-		"ruby": "フンバツスルチシキ",
+		"ruby": "フンパツスルチシキ",
 		"rarity": "R",
 		"category": "スペル",
 		"type": null,
@@ -9853,9 +9856,12 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング【メインフェイズ】\r\n対戦相手はライフクロスの一番上を公開する。そのカードが【ライフバースト】を持たない場合、それをトラッシュに置く。"
+			"comment": "使用タイミング【メインフェイズ】\n対戦相手はライフクロスの一番上を公開する。そのカードが[ライフバースト]を持たない場合、それをトラッシュに置く。"
 		},
-		"burst": null,
+		"burst": {
+			"cost": null,
+			"comment": null
+		},
 		"comment": "ばっちん！",
 		"illust": "パトリシア"
 	},
@@ -11220,7 +11226,7 @@
 		"skill": {
 			"regular": {
 				"cost": null,
-				"comment": "あなたのルリグがレベル4の＜タマ＞であるかぎり、このシグニのパワーは10000になる。"
+				"comment": "あなたの場にレベル4の＜タマ＞がいるかぎり、このシグニのパワーは10000になる。"
 			},
 			"arrival": null,
 			"starting": null,
@@ -11237,7 +11243,7 @@
 		"ruby": "ラセキミスリル",
 		"rarity": "PR",
 		"category": "シグニ",
-		"type": "精羅：鉱石",
+		"type": "精羅：宝石",
 		"color": "赤",
 		"level": 3,
 		"glow": null,
@@ -11291,10 +11297,10 @@
 		},
 		"burst": {
 			"cost": null,
-			"comment": "カードを2枚捨てる。その後カードを3枚引く。"
+			"comment": "カードを2枚捨てる。その後、カードを3枚引く。"
 		},
 		"comment": "みつけたぁ！",
-		"illust": "Nardack"
+		"illust": "Morechand"
 	},
 	{
 		"id": 379,
@@ -11399,7 +11405,7 @@
 		"skill": {
 			"regular": {
 				"cost": null,
-				"comment": "あなたのルリグがレベル4の＜タマ＞であるかぎり、このシグニのパワーは10000になる。"
+				"comment": "あなたの場にレベル4の＜タマ＞がいるかぎり、このシグニのパワーは10000になる。"
 			},
 			"arrival": null,
 			"starting": null,
@@ -11416,7 +11422,7 @@
 		"ruby": "ラセキミスリル",
 		"rarity": "PR",
 		"category": "シグニ",
-		"type": "精羅：鉱石",
+		"type": "精羅：宝石",
 		"color": "赤",
 		"level": 3,
 		"glow": null,
@@ -11470,10 +11476,10 @@
 		},
 		"burst": {
 			"cost": null,
-			"comment": "カードを2枚捨てる。その後カードを3枚引く。"
+			"comment": "カードを2枚捨てる。その後、カードを3枚引く。"
 		},
 		"comment": "みつけたぁ！",
-		"illust": "Nardack"
+		"illust": "Morechand"
 	},
 	{
 		"id": 385,
@@ -11549,7 +11555,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "あなたのシグニ1体をバニッシュする。そうした場合、パワー10000以下のシグニ1体をバニッシュする。"
+			"comment": "あなたのシグニ1体をバニッシュする。そうした場合、対戦相手のパワー10000以下のシグニ1体をバニッシュする。"
 		},
 		"burst": null,
 		"comment": "バッゴオオオン！",
@@ -11558,7 +11564,7 @@
 	{
 		"id": 388,
 		"no": "PR-032",
-		"name": "コードアート　M・G・T (WIXOSS PARTY参加賞selectors pack vol2)",
+		"name": "コードアート　Ｍ・Ｇ・Ｔ (WIXOSS PARTY参加賞selectors pack vol2)",
 		"ruby": "コードアートマグネット",
 		"rarity": "PR",
 		"category": "シグニ",
@@ -11691,7 +11697,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "あなたのシグニ1体をバニッシュする。そうした場合、パワー10000以下のシグニ1体をバニッシュする。"
+			"comment": "あなたのシグニ1体をバニッシュする。そうした場合、対戦相手のパワー10000以下のシグニ1体をバニッシュする。"
 		},
 		"burst": null,
 		"comment": "バッゴオオオン！",
@@ -11700,7 +11706,7 @@
 	{
 		"id": 393,
 		"no": "PR-037",
-		"name": "コードアート　M・G・T (WIXOSSポイント引換 7-8月度)",
+		"name": "コードアート　Ｍ・Ｇ・Ｔ (WIXOSSポイント引換 7-8月度)",
 		"ruby": "コードアートマグネット",
 		"rarity": "PR",
 		"category": "シグニ",
@@ -12057,7 +12063,7 @@
 		"ruby": "センセイノミコリメンバ",
 		"rarity": "PR",
 		"category": "ルリグ",
-		"type": "リメンバ/ピルルク",
+		"type": "リメンバ",
 		"color": "白",
 		"level": 0,
 		"glow": null,
@@ -12178,7 +12184,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング【メインフェイズ】\nこのターン、あなたがリフレッシュをしたとき、それがこのターンであなたの最初のリフレッシュである場合、対戦相手のライフクロスを1枚をクラッシュする。"
+			"comment": "使用タイミング【メインフェイズ】\nこのターン、あなたがリフレッシュをしたとき、それがこのターンであなたの最初のリフレッシュである場合、対戦相手のライフクロス1枚をクラッシュする。"
 		},
 		"burst": null,
 		"comment": "ふふっ、アナタに不幸のお裾分けよ",
@@ -12474,7 +12480,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング\n【メインフェイズ】\nこのターン、次にあなたが使用するスペルのコストは[白][白]減り、対戦相手の効果によって打ち消されない。"
+			"comment": "使用タイミング【メインフェイズ】\r\nこのターン、次にあなたが使用するスペルのコストは[白][白]減り、対戦相手の効果によって打ち消されない。"
 		},
 		"burst": null,
 		"comment": "タマ…おわらせるね。　～タマ～",
@@ -12533,7 +12539,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング\n【メインフェイズ】\nこのカードは対戦相手のエナゾーンにあるカードが4枚以上の場合にしか使用できない。\n対戦相手のエナゾーンからカードを合計2枚までトラッシュに置く。"
+			"comment": "使用タイミング【メインフェイズ】\r\nこのカードは対戦相手のエナゾーンにあるカードが4枚以上の場合にしか使用できない。\r\n対戦相手のエナゾーンからカードを合計2枚までトラッシュに置く。"
 		},
 		"burst": null,
 		"comment": "ドッゴン！",
@@ -12676,7 +12682,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング\n【メインフェイズ】\n対戦相手は、自分のデッキを上からスペルがめくれるまで公開する。その後、公開されたスペルをチェックゾーンに置き、残りのカードをデッキに戻してシャッフルする。あなたは、そのスペルをあなたの手札にあるかのようにコストを支払わずに限定条件を無視して使用してもよい。使用しなかった場合、そのスペルを対戦相手のトラッシュに置く。"
+			"comment": "使用タイミング【メインフェイズ】\r\n対戦相手は、自分のデッキを上からスペルがめくれるまで公開する。その後、公開されたスペルをチェックゾーンに置き、残りのカードをデッキに戻してシャッフルする。あなたは、そのスペルをあなたの手札にあるかのようにコストを支払わずに限定条件を無視して使用してもよい。使用しなかった場合、そのスペルを対戦相手のトラッシュに置く。"
 		},
 		"burst": null,
 		"comment": "キラキラキラキラキラキラ",
@@ -12818,7 +12824,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング\n【メインフェイズ】\nあなたのデッキの上からカードを3枚公開する。その中から＜美巧＞のシグニをすべて手札に加え、残りをトラッシュに置く。"
+			"comment": "使用タイミング【メインフェイズ】\r\nあなたのデッキの上からカードを3枚公開する。その中から＜美巧＞のシグニをすべて手札に加え、残りをトラッシュに置く。"
 		},
 		"burst": null,
 		"comment": "フィナーレね。　～アン～",
@@ -12959,7 +12965,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング\n【アタックフェイズ】\nすべてのプレイヤーは自分のシグニ1体をトラッシュに置く。その後、あなたの場にシグニがない場合、あなたのデッキの一番上のカードをライフクロスに加える。"
+			"comment": "使用タイミング【アタックフェイズ】\r\nすべてのプレイヤーは自分のシグニ1体をトラッシュに置く。その後、あなたの場にシグニがない場合、あなたのデッキの一番上のカードをライフクロスに加える。"
 		},
 		"burst": null,
 		"comment": "……！　～イオナ～",
@@ -12987,7 +12993,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング\n【メインフェイズ】\nあなたのトラッシュからあなたのルリグと同じ色のシグニを2枚まで手札に加える。"
+			"comment": "使用タイミング【メインフェイズ】\r\nあなたのトラッシュからあなたのルリグと同じ色のシグニを2枚まで手札に加える。"
 		},
 		"burst": null,
 		"comment": "夢限の先に、誰もが知らない未来が待っているかもしれない。",
@@ -13013,7 +13019,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング\n【メインフェイズ】【アタックフェイズ】【スペルカットイン】\nターン終了時まで、シグニ1体のパワーを＋3000する。"
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】【スペルカットイン】\r\nターン終了時まで、シグニ1体のパワーを＋3000する。"
 		},
 		"burst": null,
 		"comment": "シグニの意思は、誰かの妄想。",
@@ -13041,7 +13047,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング\n【メインフェイズ】\n対戦相手のシグニ1体をバニッシュする。"
+			"comment": "使用タイミング【メインフェイズ】\r\n対戦相手のシグニ1体をバニッシュする。"
 		},
 		"burst": null,
 		"comment": "消滅したシグニは、エナに帰す。",
@@ -13680,7 +13686,7 @@
 		"skill": {
 			"regular": {
 				"cost": null,
-				"comment": "あなたの場に他の＜空獣＞まはた＜地獣＞のシグニがあるかぎり、このシグニのレベルは2になる。（このシグニは場に出るまでレベル3であり、例えばあなたのルリグのレベルが2の場合、場に出すことはできない）"
+				"comment": "あなたの場に他の＜空獣＞または＜地獣＞のシグニがあるかぎり、このシグニのレベルは2になる。（このシグニは場に出るまでレベル3であり、例えばあなたのルリグのレベルが2の場合、場に出すことはできない）"
 			},
 			"arrival": null,
 			"starting": {
@@ -13852,7 +13858,7 @@
 		"id": 465,
 		"no": "WX04-055",
 		"name": "君からの明日　ラファエ",
-		"ruby": "キミカラノアシタラフェエ",
+		"ruby": "キミカラノアシタラファエ",
 		"rarity": "C",
 		"category": "シグニ",
 		"type": "精像：天使",
@@ -14603,7 +14609,7 @@
 	{
 		"id": 491,
 		"no": "WX04-081",
-		"name": "羅原　Cl",
+		"name": "羅原　Ｃｌ",
 		"ruby": "ラゲンエンソ",
 		"rarity": "C",
 		"category": "シグニ",
@@ -14857,7 +14863,7 @@
 		"skill": {
 			"regular": {
 				"cost": null,
-				"comment": "あなたの場に＜美功＞のシグニが3体あるかぎり、あなたのすべてのシグニのパワーを＋2000する。"
+				"comment": "あなたの場に＜美巧＞のシグニが3体あるかぎり、あなたのすべてのシグニのパワーを＋2000する。"
 			},
 			"arrival": null,
 			"starting": null,
@@ -15859,7 +15865,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング\n【アタックフェイズ】【スペルカットイン】\nこのターン、対戦相手のスペルを使用するためのコストは[無×3]増える。あなたのルリグが＜ピルルク＞の場合、このターン、対戦相手のアーツを使用するためのコストは[無×3]増える。（カットインされたスペルはこの効果の影響を受けない）"
+			"comment": "使用タイミング\r\n【アタックフェイズ】【スペルカットイン】\r\nこのターン、対戦相手のスペルを使用するためのコストは[無×3]増える。あなたのルリグが＜ピルルク＞の場合、このターン、対戦相手のアーツを使用するためのコストは[無×3]増える。（カットインされたスペルはこの効果の影響を受けない）"
 		},
 		"burst": null,
 		"comment": "ゲームオーバー。　～ピルルク～",
@@ -16003,7 +16009,7 @@
 			"regular": null,
 			"arrival": null,
 			"starting": null,
-			"comment": "使用タイミング\n【アタックフェイズ】【スペルカットイン】\nこのターン、対戦相手のスペルを使用するためのコストは[無×3]増える。あなたのルリグが＜ピルルク＞の場合、このターン、対戦相手のアーツを使用するためのコストは[無×3]増える。（カットインされたスペルはこの効果の影響を受けない）"
+			"comment": "使用タイミング\r\n【アタックフェイズ】【スペルカットイン】\r\nこのターン、対戦相手のスペルを使用するためのコストは[無×3]増える。あなたのルリグが＜ピルルク＞の場合、このターン、対戦相手のアーツを使用するためのコストは[無×3]増える。（カットインされたスペルはこの効果の影響を受けない）"
 		},
 		"burst": null,
 		"comment": "そのまま、朽ちるといいわ。　～ピルルク～",
@@ -16067,7 +16073,7 @@
 	{
 		"id": 542,
 		"no": "PR-080",
-		"name": "ミルルン・ノット (WIXOSS大運動会参加賞)",
+		"name": "ミルルン・ノット (第4弾発売記念キャンペーン)",
 		"ruby": "ミルルンノット",
 		"rarity": "PR",
 		"category": "ルリグ",
@@ -16093,7 +16099,7 @@
 	{
 		"id": 543,
 		"no": "PR-081",
-		"name": "奇跡の軌跡　アン (WIXOSS大運動会参加賞)",
+		"name": "奇跡の軌跡　アン (第4弾発売記念キャンペーン)",
 		"ruby": "キセキノキセキアン",
 		"rarity": "PR",
 		"category": "ルリグ",
@@ -16114,6 +16120,5670 @@
 		},
 		"burst": null,
 		"comment": "ふむ、お手合わせ願いましょうか。　～アン～",
+		"illust": "単ル"
+	},
+	{
+		"id": 544,
+		"no": "PR-082",
+		"name": "新月の巫女　タマヨリヒメ (アミューズメント専用景品)",
+		"ruby": "シンゲツノミコタマヨリヒメ",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "タマ",
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "おーぷん！　～タマ～",
+		"illust": "CHAN×ＣＯ"
+	},
+	{
+		"id": 545,
+		"no": "PR-083",
+		"name": "花代・零 (アミューズメント専用景品)",
+		"ruby": "ハナヨゼロ",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "花代",
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "オープンッ！　～花代～",
+		"illust": "CHAN×ＣＯ"
+	},
+	{
+		"id": 546,
+		"no": "PR-084",
+		"name": "コード・ピルルク (アミューズメント専用景品)",
+		"ruby": "コードピルルク",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "ピルルク",
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "・・・・・・オープン　～ピルルク～",
+		"illust": "CHAN×ＣＯ"
+	},
+	{
+		"id": 547,
+		"no": "PR-085",
+		"name": "闘娘　緑姫 (アミューズメント専用景品)",
+		"ruby": "トウキミドリコ",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "緑子",
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "オープン！　～緑姫～",
+		"illust": "CHAN×ＣＯ"
+	},
+	{
+		"id": 548,
+		"no": "PR-086",
+		"name": "閻魔　ウリス (アミューズメント専用景品)",
+		"ruby": "エンマウリス",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "ウリス",
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "オープン！　～ウリス～",
+		"illust": "CHAN×ＣＯ"
+	},
+	{
+		"id": 549,
+		"no": "PR-087",
+		"name": "エルドラ＝マーク０ (アミューズメント専用景品)",
+		"ruby": "エルドラマークゼロ",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "エルドラ",
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "オープンっす！　～エルドラ～",
+		"illust": "CHAN×ＣＯ"
+	},
+	{
+		"id": 550,
+		"no": "PR-088",
+		"name": "遊月・零 (アミューズメント専用景品)",
+		"ruby": "ユヅキゼロ",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "ユヅキ",
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "オープンっ！　～遊月～",
+		"illust": "CHAN×ＣＯ"
+	},
+	{
+		"id": 551,
+		"no": "PR-089",
+		"name": "ゼロ/メイデン　イオナ (アミューズメント専用景品)",
+		"ruby": "ゼロメイデンイオナ",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "イオナ",
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "オープン……　～イオナ～",
+		"illust": "CHAN×ＣＯ"
+	},
+	{
+		"id": 552,
+		"no": "PR-090",
+		"name": "奇跡の軌跡　アン (アミューズメント専用景品)",
+		"ruby": "キセキノキセキアン",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "アン",
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "オープン！　～アン～",
+		"illust": "CHAN×ＣＯ"
+	},
+	{
+		"id": 553,
+		"no": "PR-091",
+		"name": "ミルルン・ノット (アミューズメント専用景品)",
+		"ruby": "ミルルンノット",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "ミルルン",
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "オープンプン！　～ミルルン～",
+		"illust": "CHAN×ＣＯ"
+	},
+	{
+		"id": 554,
+		"no": "PR-092",
+		"name": "サーバント　Ｏ (WIXOSS大運動会優勝景品)",
+		"ruby": "サーバントワン",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 2000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "これからも私を使い続けてね。　～サーバントＯ～",
+		"illust": "トリダモノ"
+	},
+	{
+		"id": 555,
+		"no": "PR-093",
+		"name": "羅植　カーノ (分島花音「world’s end, girl’s rondo」 初回限定特典)",
+		"ruby": "ラショクカーノ",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精羅：植物",
+		"color": "緑",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのターンの間、あなたのエナゾーンにカードが置かれるたび、ターン終了時まで、このシグニのパワーを＋3000する。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "終焉の音、巻きこむ喧噪。",
+		"illust": "分島花音"
+	},
+	{
+		"id": 556,
+		"no": "PR-094",
+		"name": "ＡＴＴＲＡＣＴＩＯＮ (コンプティーク11月号 付録)",
+		"ruby": "アトラクション",
+		"rarity": "PR",
+		"category": "スペル",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"青": 2,
+			"無": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "あなたのデッキからコストの合計が1のスペル1枚とコストの合計が2のスペル1枚とコストの合計が3のスペル1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"burst": null,
+		"comment": "いやはや、私を呼び出してくれるなんて恐縮ですわー！　～エルドラ～",
+		"illust": "アカバネ"
+	},
+	{
+		"id": 557,
+		"no": "PR-095",
+		"name": "豊潤 (ビッグガンガン11月号 付録)",
+		"ruby": "ホウジュン",
+		"rarity": "PR",
+		"category": "スペル",
+		"type": null,
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"緑": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "あなたの場にある＜空獣＞、＜地獣＞、＜植物＞のシグニ1体につき、あなたのデッキの一番上のカード1枚をエナゾーンに置く。"
+		},
+		"burst": null,
+		"comment": "にょきにょき育て～♪私のかわいい若葉達♪",
+		"illust": "めきめき"
+	},
+	{
+		"id": 558,
+		"no": "PR-096",
+		"name": "アイギス・シールド (ビッグガンガン11月号 付録)",
+		"ruby": "アイギスシールド",
+		"rarity": "PR",
+		"category": "アーツ",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\n対戦相手のターンであるかぎり、ターン終了時まで、あなたのすべてのシグニのパワーを＋5000する。（この効果が解決したあとに場に出たシグニは、この効果の影響を受けない）"
+		},
+		"burst": null,
+		"comment": "今度こそ君を守ろう…これは僕の贖罪の終末。",
+		"illust": "めきめき"
+	},
+	{
+		"id": 559,
+		"no": "PR-097",
+		"name": "羅植　カーノ (animelo mix 「world’s end, girl’s rondo」 ダウンロード特典)",
+		"ruby": "ラショクカーノ",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精羅：植物",
+		"color": "緑",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのターンの間、あなたのエナゾーンにカードが置かれるたび、ターン終了時まで、このシグニのパワーを＋3000する。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "元に戻る、君の終焉。",
+		"illust": "分島花音"
+	},
+	{
+		"id": 560,
+		"no": "PR-099",
+		"name": "噴流する知識 (ラジオCD「selector radio WIXOSS」 Vol.1 初回限定特典)",
+		"ruby": "フンリュウスルチシキ",
+		"rarity": "PR",
+		"category": "スペル",
+		"type": null,
+		"color": "無",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "カードを1枚引く。"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "バッチリでーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーす！！",
+		"illust": "クマハシリ"
+	},
+	{
+		"id": 561,
+		"no": "PR-101",
+		"name": "ロック・ユー (ウルトラジャンプ12月号 付録)",
+		"ruby": "ロックユー",
+		"rarity": "PR",
+		"category": "アーツ",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"青": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【アタックフェイズ】【スペルカットイン】\r\nこのターン、対戦相手のスペルを使用するためのコストは[無×3]増える。あなたのルリグが＜ピルルク＞の場合、このターン、対戦相手のアーツを使用するためのコストは[無×3]増える。（カットインされたスペルはこの効果の影響を受けない）"
+		},
+		"burst": null,
+		"comment": "あなたのお願い、一緒に叶えましょう…？",
+		"illust": "鈴木マナツ"
+	},
+	{
+		"id": 562,
+		"no": "SP01-001",
+		"name": "満月の巫女　タマ (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "マンゲツノミコタマ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "タマ",
+		"color": "白",
+		"level": 4,
+		"glow": {
+			"白": 3
+		},
+		"cost": null,
+		"limit": 11,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場に《甲冑　ローメイル》があるかぎり、あなたのすべてのシグニのパワーを＋2000する"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": null,
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 563,
+		"no": "SP01-002",
+		"name": "弦月の巫女　タマ (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "ゲンゲツノミコタマ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "タマ",
+		"color": "白",
+		"level": 3,
+		"glow": {
+			"白": 2
+		},
+		"cost": null,
+		"limit": 8,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": null,
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 564,
+		"no": "SP01-003",
+		"name": "半月の巫女　タマ (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "ハンゲツノミコタマ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "タマ",
+		"color": "白",
+		"level": 2,
+		"glow": {
+			"白": 1
+		},
+		"cost": null,
+		"limit": 5,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": null,
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 565,
+		"no": "SP01-004",
+		"name": "三日月の巫女　タマ (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "ミカヅキノミコタマ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "タマ",
+		"color": "白",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 2,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": null,
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 566,
+		"no": "SP01-005",
+		"name": "新月の巫女　タマ (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "シンゲツノミコタマ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "タマ",
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": null,
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 567,
+		"no": "SP01-006",
+		"name": "ロココ・バウンダリー (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "ロココバウンダリー",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 3,
+			"無": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "タマ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\n対戦相手のシグニを2体まで手札に戻す。"
+		},
+		"burst": null,
+		"comment": "にゃー！！",
+		"illust": "クロサワテツ"
+	},
+	{
+		"id": 568,
+		"no": "SP01-007",
+		"name": "エイボン (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "エイボン",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 3
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\nあなたのデッキから白のシグニを2枚まで探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"burst": null,
+		"comment": "おいでーッ！",
+		"illust": "クロサワテツ"
+	},
+	{
+		"id": 569,
+		"no": "SP01-008",
+		"name": "バロック・ディフェンス (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "バロックディフェンス",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【アタックフェイズ】\nターン終了時まで、対戦相手のルリグ1体またはシグニ1体は「アタックできない」を得る。"
+		},
+		"burst": null,
+		"comment": "うん、にゃー！",
+		"illust": "クロサワテツ"
+	},
+	{
+		"id": 570,
+		"no": "SP01-009",
+		"name": "スピリット・サルベージ (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "スピリットサルベージ",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\nあなたのルリグトラッシュから《スピリット・サルベージ》以外のアーツ1枚をルリグデッキに加える。"
+		},
+		"burst": null,
+		"comment": "そーれッ！　～タマ～",
+		"illust": "単ル"
+	},
+	{
+		"id": 571,
+		"no": "SP01-010",
+		"name": "モダン・バウンダリー (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "モダンバウンダリー",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 1,
+			"無": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "タマ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\n数字一つを宣言する。その後、あなたのデッキの上からカードを3枚公開する。その中に宣言した数字と同じレベルのシグニがある場合、対戦相手のシグニ1体を手札に戻す。この効果で公開したカードを、好きな順番でデッキの上に戻す。"
+		},
+		"burst": null,
+		"comment": "タマね、少しずつわかってきたかもしれない。　～タマ～",
+		"illust": "トリダモノ"
+	},
+	{
+		"id": 572,
+		"no": "SP01-011",
+		"name": "甲冑　ローメイル (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "カッチュウローメイル",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": "タマ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手のターン中、あなたのすべてのシグニのパワーを＋1000する。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "対戦相手のシグニ1体を手札に戻す。"
+		},
+		"comment": "タマ、あなたは何者なの？　～ローメイル～",
+		"illust": "甲冑"
+	},
+	{
+		"id": 573,
+		"no": "SP01-012",
+		"name": "大剣　カリバン (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "タイケンカリバン",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "この剣、あんたに授けるよ！　～カリバン～",
+		"illust": "ベーコン"
+	},
+	{
+		"id": 574,
+		"no": "SP01-013",
+		"name": "篭手　トレット (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "コテトレット",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": "タマ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": {
+					"白": 1
+				},
+				"comment": "あなたのデッキから《甲冑　ローメイル》1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "カードを1枚引く。"
+		},
+		"comment": "カモン！ローメイル、はよ！　～トレット～",
+		"illust": "みさ"
+	},
+	{
+		"id": 575,
+		"no": "SP01-014",
+		"name": "中剣　フランベル (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "チュウケンフランベル",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "ほーれ！タマちゃんプレゼント！　～フランベル～",
+		"illust": "村上ヒサシ"
+	},
+	{
+		"id": 576,
+		"no": "SP01-015",
+		"name": "小剣　ククリ (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "ショウケンククリ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 3000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "あんたならできるよ！一刀両断ッ！　～ククリ～",
+		"illust": "松本エイト"
+	},
+	{
+		"id": 577,
+		"no": "SP01-016",
+		"name": "小弓　ボーニャ (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "ショウキュウボーニャ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 1000,
+		"term": "タマ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのデッキの上からカードを3枚見る。その後、それらを好きな順番で戻す。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "もう、折れないね！　～ボーニャ～",
+		"illust": "bomi"
+	},
+	{
+		"id": 578,
+		"no": "SP01-017",
+		"name": "ゲット・バイブル (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "ゲットバイブル",
+		"rarity": "SP",
+		"category": "スペル",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "あなたのデッキからシグニを1枚まで探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"burst": null,
+		"comment": "ほら、便利だったでしょ？",
+		"illust": "かにかま"
+	},
+	{
+		"id": 579,
+		"no": "SP01-018",
+		"name": "サーバント　Ｄ (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "サーバントデュオ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "護りの時。",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 580,
+		"no": "SP01-019",
+		"name": "サーバント　Ｏ (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "サーバントワン",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 2000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "まさに守護霊。",
+		"illust": "トリダモノ"
+	},
+	{
+		"id": 581,
+		"no": "SP01-020",
+		"name": "噴流する知識 (「selector infected WIXOSS」 BOX1 初回限定特典)",
+		"ruby": "フンリュウスルチシキ",
+		"rarity": "SP",
+		"category": "スペル",
+		"type": null,
+		"color": "無",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "カードを1枚引く。"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "ルリグの真実は如何に。",
+		"illust": "okera"
+	},
+	{
+		"id": 582,
+		"no": "SP02-001",
+		"name": "遊月・肆 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ユヅキヨン",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "花代/ユヅキ",
+		"color": "赤",
+		"level": 4,
+		"glow": {
+			"赤": 3
+		},
+		"cost": null,
+		"limit": 11,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場に《羅石　ヴォルカノ》があるかぎり、あなたのターンの間、あなたのすべてのシグニのパワーを＋2000する。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "放たれる炎は、こんなにも儚い。",
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 583,
+		"no": "SP02-002",
+		"name": "遊月・参 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ユヅキサン",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "花代/ユヅキ",
+		"color": "赤",
+		"level": 3,
+		"glow": {
+			"赤": 2
+		},
+		"cost": null,
+		"limit": 8,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": null,
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 584,
+		"no": "SP02-003",
+		"name": "遊月・爾 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ユヅキニ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "花代/ユヅキ",
+		"color": "赤",
+		"level": 2,
+		"glow": {
+			"赤": 1
+		},
+		"cost": null,
+		"limit": 5,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": null,
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 585,
+		"no": "SP02-004",
+		"name": "遊月・壱 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ユヅキイチ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "花代/ユヅキ",
+		"color": "赤",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 2,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": null,
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 586,
+		"no": "SP02-005",
+		"name": "遊月・零 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ユヅキゼロ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "ユヅキ",
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "さあ、いくよ…！　～遊月～",
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 587,
+		"no": "SP02-006",
+		"name": "飛火夏虫 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ヒカカチュウ",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"赤": 3
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\n相手のパワー15000以下のシグニ1体をバニッシュする。"
+		},
+		"burst": null,
+		"comment": "飛んで火にいる夏の虫ってね！　～遊月～",
+		"illust": "mado*pen"
+	},
+	{
+		"id": 588,
+		"no": "SP02-007",
+		"name": "背炎之陣 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ハイエンノジン",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"赤": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "花代限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\n手札を3枚捨てる。そうした場合、すべてのシグニをバニッシュする。（あなたのシグニも含まれる）"
+		},
+		"burst": null,
+		"comment": "もう、戻れないんだよ！　～遊月～",
+		"illust": "mado*pen"
+	},
+	{
+		"id": 589,
+		"no": "SP02-008",
+		"name": "焼石炎 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "シャクセキエン",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"赤": 1,
+			"無": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\n相手のパワー7000以下のシグニ1体をバニッシュする。"
+		},
+		"burst": null,
+		"comment": "まっすぐで、何が…。　～遊月～",
+		"illust": "mado*pen"
+	},
+	{
+		"id": 590,
+		"no": "SP02-009",
+		"name": "一覇二鳥 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "イッパニチョウ",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"赤": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイス】\nターン終了時まで、あなたのルリグは【ダブルクラッシュ】を得る。このターン、対戦相手はレベル1のシグニで【ガード】ができない。"
+		},
+		"burst": null,
+		"comment": "ごめんッ！　～遊月～",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 591,
+		"no": "SP02-010",
+		"name": "炎志貫徹 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "エンシカンテツ",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"赤": 3,
+			"無": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイス】\nこのターン、あなたのすべてのシグニは、その正面のシグニのパワーが12000以上であるかぎり、【アサシン】を得る。（【アサシン】を持つシグニがアタックする場合、正面にシグニがないかのように対戦相手にダメージを与える）"
+		},
+		"burst": null,
+		"comment": "よっと！　～遊月～",
+		"illust": "安藤周記"
+	},
+	{
+		"id": 592,
+		"no": "SP02-011",
+		"name": "羅石　ヴォルカノ (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ラセキヴォルカノ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精羅：鉱石",
+		"color": "赤",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": "花代限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": {
+					"赤": 3
+				},
+				"comment": "対戦相手のパワー15000以下のシグニ1体をバニッシュする。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "対戦相手のパワー7000以下のシグニ1体をバニッシュする。"
+		},
+		"comment": "遊月さん、よろしくねー！　～ヴォルカノ～",
+		"illust": "水玉子"
+	},
+	{
+		"id": 593,
+		"no": "SP02-012",
+		"name": "羅石　シルバン (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ラセキシルバン",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精羅：鉱石",
+		"color": "赤",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "変幻自在の美脚で、貫いてあげるよ！　～シルバン～",
+		"illust": "由利 真珠郎"
+	},
+	{
+		"id": 594,
+		"no": "SP02-013",
+		"name": "羅石　ガーネット (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ラセキガーネット",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精羅：宝石",
+		"color": "赤",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": "花代限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "ターン終了時まで、このシグニのパワーは15000になる。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "カードを1枚引く。"
+		},
+		"comment": "個性的である必要性…？　～ガーネット～",
+		"illust": "mado*pen"
+	},
+	{
+		"id": 595,
+		"no": "SP02-014",
+		"name": "羅石　ブロンダ (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ラセキブロンダ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精羅：鉱石",
+		"color": "赤",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "想像以上の硬さで、踏み潰してあげる。　～ブロンダ～",
+		"illust": "由利 真珠郎"
+	},
+	{
+		"id": 596,
+		"no": "SP02-015",
+		"name": "羅石　アイロン (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ラセキアイロン",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精羅：鉱石",
+		"color": "赤",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 3000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "熱かったでしょ。　～アイロン～",
+		"illust": "mado*pen"
+	},
+	{
+		"id": 597,
+		"no": "SP02-016",
+		"name": "羅石　アメジスト (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ラセキアメジスト",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精羅：宝石",
+		"color": "赤",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 1000,
+		"term": "花代限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "対戦相手のパワー1000以下のシグニ1体をバニッシュしてもよい。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "遣ってみて、どうだった？　～アメジスト～",
+		"illust": "由利 真珠郎"
+	},
+	{
+		"id": 598,
+		"no": "SP02-017",
+		"name": "轟音の火柱 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "ゴウオンノヒバシラ",
+		"rarity": "SP",
+		"category": "スペル",
+		"type": null,
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"赤": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "対戦相手のパワー5000以下のシグニ1体をバニッシュする。"
+		},
+		"burst": null,
+		"comment": "エナ、炸裂！",
+		"illust": "arihato"
+	},
+	{
+		"id": 599,
+		"no": "SP02-018",
+		"name": "サーバント　Ｄ (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "サーバントデュオ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "くらくらり",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 600,
+		"no": "SP02-019",
+		"name": "サーバント　Ｏ (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "サーバントワン",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 2000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "ふわふわり",
+		"illust": "トリダモノ"
+	},
+	{
+		"id": 601,
+		"no": "SP02-020",
+		"name": "噴流する知識 (「selector infected WIXOSS」 BOX2 初回限定特典)",
+		"ruby": "フンリュウスルチシキ",
+		"rarity": "SP",
+		"category": "スペル",
+		"type": null,
+		"color": "無",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "カードを1枚引く。"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "そこに描かれていたのは違う物語。",
+		"illust": "okera"
+	},
+	{
+		"id": 602,
+		"no": "SP05-001",
+		"name": "新月の巫女　タマヨリヒメ (selector spread WIXOSS カードガム)",
+		"ruby": "シンゲツノミコタマヨリヒメ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "タマ",
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "たま！　～タマ～",
+		"illust": "J.C.STAFF/坂井久太"
+	},
+	{
+		"id": 603,
+		"no": "SP05-002",
+		"name": "花代・零 (selector spread WIXOSS カードガム)",
+		"ruby": "ハナヨゼロ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "花代",
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "火焔を纏い、いざ…！　～花代～",
+		"illust": "J.C.STAFF/坂井久太"
+	},
+	{
+		"id": 604,
+		"no": "SP05-003",
+		"name": "コード・ピルルク (selector spread WIXOSS カードガム)",
+		"ruby": "コードピルルク",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "ピルルク",
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "……おいで。　～ピルルク～",
+		"illust": "J.C.STAFF/坂井久太"
+	},
+	{
+		"id": 605,
+		"no": "SP05-004",
+		"name": "闘娘　緑姫 (selector spread WIXOSS カードガム)",
+		"ruby": "トウキミドリコ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "緑子",
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "割と駆り出してくれるよね…。　～緑姫～",
+		"illust": "J.C.STAFF/坂井久太"
+	},
+	{
+		"id": 606,
+		"no": "SP05-005",
+		"name": "閻魔　ウリス (selector spread WIXOSS カードガム)",
+		"ruby": "エンマウリス",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "ウリス",
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "うふふ…。　～ウリス～",
+		"illust": "J.C.STAFF/坂井久太"
+	},
+	{
+		"id": 607,
+		"no": "SP05-006",
+		"name": "エルドラ＝マーク０ (selector spread WIXOSS カードガム)",
+		"ruby": "エルドラマークゼロ",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "エルドラ",
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "いやー、まさかこんなところでもねぇ！　～エルドラ～",
+		"illust": "J.C.STAFF/坂井久太"
+	},
+	{
+		"id": 608,
+		"no": "SP05-007",
+		"name": "ロココ・バウンダリー (selector spread WIXOSS カードガム)",
+		"ruby": "ロココバウンダリー",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 3,
+			"無": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "タマ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\n対戦相手のシグニを2体まで手札に戻す。"
+		},
+		"burst": null,
+		"comment": "もどれッ！　～タマ～",
+		"illust": "クロサワテツ"
+	},
+	{
+		"id": 609,
+		"no": "SP05-008",
+		"name": "ゼノ・マルチプル (selector spread WIXOSS カードガム)",
+		"ruby": "ゼノマルチプル",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 2,
+			"青": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\n以下の4つから2つまで選ぶ。\n「対戦相手のルリグ1体はこのターン、アタックできない。」\n「対戦相手のシグニすべてを凍結する。」\n「対戦相手のシグニ1体を手札に戻す。」\n「カードを2枚引く。」"
+		},
+		"burst": null,
+		"comment": "ビビッときたよ！",
+		"illust": "西Ｅ田"
+	},
+	{
+		"id": 610,
+		"no": "SP05-009",
+		"name": "背炎之陣 (selector spread WIXOSS カードガム)",
+		"ruby": "ハイエンノジン",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"赤": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "花代限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\n手札を3枚捨てる。そうした場合、すべてのシグニをバニッシュする。（あなたのシグニも含まれる）"
+		},
+		"burst": null,
+		"comment": "ぶっ放すよ…！！　～花代～",
+		"illust": "mado*pen"
+	},
+	{
+		"id": 611,
+		"no": "SP05-010",
+		"name": "ドント・ムーブ (selector spread WIXOSS カードガム)",
+		"ruby": "ドントムーブ",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"青": 3
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【アタックフェイズ】\n対戦相手のシグニを2体までダウンする。"
+		},
+		"burst": null,
+		"comment": "ビッ！",
+		"illust": "bomi"
+	},
+	{
+		"id": 612,
+		"no": "SP05-011",
+		"name": "付和雷同 (selector spread WIXOSS カードガム)",
+		"ruby": "ビッグウェーブ",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"緑": 3
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\n対戦相手のパワー12000以上のシグニ1体をバニッシュする。"
+		},
+		"burst": null,
+		"comment": "大きいから損するんだよ！　～緑子～",
+		"illust": "安藤周記"
+	},
+	{
+		"id": 613,
+		"no": "SP05-012",
+		"name": "エターナル・パニッシュ (selector spread WIXOSS カードガム)",
+		"ruby": "エターナルパニッシュ",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 3
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\nターン終了時まで、対戦相手のシグニ1体のパワーを－15000する。（パワーが0以下のシグニはバニッシュされる）"
+		},
+		"burst": null,
+		"comment": "仄暗い、悪意の塊。",
+		"illust": "arihato"
+	},
+	{
+		"id": 614,
+		"no": "SP05-013",
+		"name": "サーバント　Ｑ (selector spread WIXOSS カードガム)",
+		"ruby": "サーバントキャトル",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "彼女は空気のようにルリグを包み込む。",
+		"illust": "村上ゆいち"
+	},
+	{
+		"id": 615,
+		"no": "SP05-014",
+		"name": "サーバント　Ｔ (selector spread WIXOSS カードガム)",
+		"ruby": "サーバントトロワ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 8000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "彼女は蒸気のようにルリグを包み込む。",
+		"illust": "ナダレ"
+	},
+	{
+		"id": 616,
+		"no": "SP05-015",
+		"name": "サーバント　Ｄ (selector spread WIXOSS カードガム)",
+		"ruby": "サーバントデュオ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "彼女は光のようにルリグを包み込む。",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 617,
+		"no": "SP05-016",
+		"name": "サーバント　Ｏ (selector spread WIXOSS カードガム)",
+		"ruby": "サーバントワン",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 2000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "彼女は煙のようにルリグを包み込む。",
+		"illust": "トリダモノ"
+	},
+	{
+		"id": 618,
+		"no": "WX05-002",
+		"name": "花代・伍",
+		"ruby": "ハナヨゴ",
+		"rarity": "LR",
+		"category": "ルリグ",
+		"type": null,
+		"color": "赤",
+		"level": 5,
+		"glow": {
+			"赤": 3
+		},
+		"cost": null,
+		"limit": 12,
+		"power": 0,
+		"term": "花代",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "このルリグはあなたのルリグトラッシュにあるすべてのルリグのの能力を持つ。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": null
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "もう一度だけ、炎を私に。　～花代～",
+		"illust": "モレシャン"
+	},
+	{
+		"id": 619,
+		"no": "WX05-003",
+		"name": "コード・ピルルク　ＡＣＲＯ",
+		"ruby": "コードピルルクアクロ",
+		"rarity": "LR",
+		"category": "ルリグ",
+		"type": null,
+		"color": "青",
+		"level": 5,
+		"glow": {
+			"青": 3
+		},
+		"cost": null,
+		"limit": 12,
+		"power": 0,
+		"term": "ピルルク",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "このルリグはあなたのルリグトラッシュにあるすべてのルリグのの能力を持つ。"
+			},
+			"arrival": {
+				"cost": null,
+				"comment": "対戦相手は手札をすべて捨てる。"
+			},
+			"starting": {
+				"cost": null,
+				"comment": null
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "輪廻で見た数々の願いで、ピルルクは少しの希望を見出した。",
+		"illust": "安藤周記"
+	},
+	{
+		"id": 620,
+		"no": "WX05-005",
+		"name": "黒点の巫女　タマヨリヒメ",
+		"ruby": "コクテンノミコタマヨリヒメ",
+		"rarity": "LR",
+		"category": "ルリグ",
+		"type": null,
+		"color": "黒",
+		"level": 5,
+		"glow": null,
+		"cost": null,
+		"limit": 12,
+		"power": 0,
+		"term": "タマ",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "エナゾーン以外のすべてのシグニは黒になる。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": {
+					"黒": 1
+				},
+				"comment": "対戦相手のシグニ1体をトラッシュに置く。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "こんなタマを、見ないでね。　～タマ～",
+		"illust": "いとうのいぢ"
+	},
+	{
+		"id": 621,
+		"no": "WX05-010",
+		"name": "エルドラ＝マークⅤ",
+		"ruby": "エルドラマークファイブ",
+		"rarity": "LC",
+		"category": "ルリグ",
+		"type": null,
+		"color": "青",
+		"level": 5,
+		"glow": {
+			"青": 3
+		},
+		"cost": null,
+		"limit": 12,
+		"power": 0,
+		"term": "エルドラ",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのすべてのライフクロスを見て、その中から好きな枚数をトラッシュに置き、その枚数と同じ枚数のカードをデッキの上からライフクロスに加える。その後、あなたのすべてのライフクロスを見て、好きな順番で並び替える。"
+			},
+			"starting": {
+				"cost": null,
+				"comment": "あなたのライフクロス1枚をクラッシュする。そうした場合、手札を1枚ライフクロスに加える。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "いやー、ほんと最高のコンビっすね。　～エルドラ～",
+		"illust": "はるのいぶき"
+	},
+	{
+		"id": 622,
+		"no": "WX05-013",
+		"name": "侵犯されし神判　アン・フィフス",
+		"ruby": "シンパンサレシシンパンアンフィフス",
+		"rarity": "LC",
+		"category": "ルリグ",
+		"type": null,
+		"color": "緑",
+		"level": 5,
+		"glow": {
+			"緑": 2,
+			"白": 1
+		},
+		"cost": null,
+		"limit": 12,
+		"power": 0,
+		"term": "アン",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのトラッシュから＜美巧＞のシグニを3枚まで手札に加える。"
+			},
+			"starting": {
+				"cost": null,
+				"comment": "対戦相手のアタックしているシグニ1体の攻撃を一度無効にする。この能力は対戦相手のシグニ1体がアタックした時にしか使用できない。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "永遠に、お休みなさい！　～アン～",
+		"illust": "柚希きひろ"
+	},
+	{
+		"id": 623,
+		"no": "WX05-014",
+		"name": "十人十色",
+		"ruby": "ミラーミラージュ",
+		"rarity": "LC",
+		"category": "アーツ",
+		"type": null,
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【アタックフェイズ】【スペルカットイン】\nこのターン、あなたのすべての＜美巧＞のシグニは対戦相手のスペルと対戦相手のシグニの効果を受けない。（このアーツの解決後に場に出たシグニにもこの効果は影響を与える）"
+		},
+		"burst": null,
+		"comment": "カラフルビーム！いろいろガード！",
+		"illust": "パトリシア"
+	},
+	{
+		"id": 624,
+		"no": "WX05-016",
+		"name": "エンドホール",
+		"ruby": "エンドホール",
+		"rarity": "LC",
+		"category": "アーツ",
+		"type": null,
+		"color": "無",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"無": 5
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "ウリス限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【スペルカットイン】\nこのアーツを使用するためのコストに[白][赤][青][緑][黒]すべてが支払われている場合、このターンを終了する。（効果やルールによってターンが終了した時点で、チェックゾーンのカードはトラッシュに置かれ、ターンプレイヤーは手札を6枚になるように捨てて、「このターン」「ターン終了時まで」といった効果は終了する）"
+		},
+		"burst": null,
+		"comment": "おしまい。　～ウリス～",
+		"illust": "松本エイト"
+	},
+	{
+		"id": 625,
+		"no": "WX05-017",
+		"name": "ラッキーガード",
+		"ruby": "ラッキーガード",
+		"rarity": "LC",
+		"category": "アーツ",
+		"type": null,
+		"color": "無",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"無": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【スペルカットイン】\nターン終了時まで、あなたのシグニ1体は「バニッシュされない。」を得る。"
+		},
+		"burst": null,
+		"comment": "アンラッキー！",
+		"illust": "ナダレ"
+	},
+	{
+		"id": 626,
+		"no": "WX05-020",
+		"name": "羅輝石　ダイヤブライド",
+		"ruby": "ラキセキダイヤブライド",
+		"rarity": "SR",
+		"category": "シグニ",
+		"type": "精羅：宝石",
+		"color": "赤",
+		"level": 5,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 15000,
+		"term": "花代限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "このシグニが1ターンにライフクロスを合計2枚以上クラッシュしたとき、このシグニをアップする。この効果は1ターンに一度しか発動しない。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "対戦相手のパワー10000以下のシグニ1体をバニッシュする。あなたのライフクロスが2枚以下の場合、追加で対戦相手のライフクロス1枚をクラッシュする。"
+		},
+		"comment": "大いなる思い出の輝き。",
+		"illust": "村上ゆいち"
+	},
+	{
+		"id": 627,
+		"no": "WX05-021",
+		"name": "幻竜姫　ムシュフシュ",
+		"ruby": "ゲンリュウヒメムシュフシュ",
+		"rarity": "SR",
+		"category": "シグニ",
+		"type": "精生：龍獣",
+		"color": "赤",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": "ユヅキ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの効果によって対戦相手のエナゾーンからカード1枚がトラッシュに置かれるたび、ターン終了時まで、このシグニのパワーを＋4000する。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": {
+					"赤": 3
+				},
+				"comment": "対戦相手のパワー12000以下のシグニ1体をバニッシュする。"
+			},
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキの一番上を公開する。それが＜龍獣＞のシグニの場合、カードを2枚引く。それが＜龍獣＞のシグニではない場合、カードを1枚引く。"
+		},
+		"comment": "サイキョーよ私！サイキョー！　～ムシュフシュ～",
+		"illust": "パトリシア"
+	},
+	{
+		"id": 628,
+		"no": "WX05-022",
+		"name": "コードラブハート　Ｃ・Ｍ・Ｒ",
+		"ruby": "コードラブハートカメラ",
+		"rarity": "SR",
+		"category": "シグニ",
+		"type": "精械：電機",
+		"color": "青",
+		"level": 5,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 15000,
+		"term": "ピルルク限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手は自分のターンの間、グロウフェイズとドローフェイズ以外でカードを引いたりカードを手札に加えることができない。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "この方法で手札を2枚以上捨てた場合、対戦相手のシグニ1体をバニッシュする。この能力は1ターンに一度しか使用できない。"
+			},
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "対戦相手のルリグ1体をダウンし、それを凍結する。（凍結されたルリグは次の自分のアップフェイズにアップしない）"
+		},
+		"comment": "シャッターチャンス！逃さないわ！　～Ｃ・Ｍ・Ｒ～",
+		"illust": "bomi"
+	},
+	{
+		"id": 629,
+		"no": "WX05-023",
+		"name": "羅原　Ｕ",
+		"ruby": "ラゲンウラン",
+		"rarity": "SR",
+		"category": "シグニ",
+		"type": "精羅：原子",
+		"color": "青",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": "ミルルン限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "このシグニはアタックできない。"
+			},
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのトラッシュから《羅原　Ｕ》以外の＜原子＞のシグニ3枚をこのシグニの下に重ねて置く。そうしない場合、このシグニをトラッシュに置く。"
+			},
+			"starting": {
+				"cost": null,
+				"comment": "このシグニの下からカード1枚を公開し手札に加える。その後、このシグニの下にカードが無い場合、このシグニと対戦相手のシグニ1体をバニッシュする。"
+			},
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのトラッシュからスペル1枚と＜原子＞のシグニ1枚を手札に加える。"
+		},
+		"comment": "うつらうららか、その明るさならナンバーワン。　～Ｕ～",
+		"illust": "猫囃子"
+	},
+	{
+		"id": 630,
+		"no": "WX05-024",
+		"name": "幻獣神　ライアン",
+		"ruby": "ゲンジュウシンライアン",
+		"rarity": "SR",
+		"category": "シグニ",
+		"type": "精生：地獣",
+		"color": "緑",
+		"level": 5,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 15000,
+		"term": "緑子限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手の効果によって、シグニのパワーは増減しない。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキの一番上のカードをエナゾーンに置き、対戦相手のパワー10000以上のシグニ1体をバニッシュする。"
+		},
+		"comment": "いわゆる、ゴッド！百獣王！　～ライアン～",
+		"illust": "蟹丹"
+	},
+	{
+		"id": 631,
+		"no": "WX05-025",
+		"name": "高尚たる一筆　スイボク",
+		"ruby": "コウショウタルイッピツスイボク",
+		"rarity": "SR",
+		"category": "シグニ",
+		"type": "精像：美巧",
+		"color": "緑",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": "アン限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": {
+					"緑": 1,
+					"白": 1
+				},
+				"comment": "あなたの＜美功＞のシグニ1体がバニッシュされるたび、[緑][白]を支払ってもよい。そうした場合、そのシグニをエナゾーンからあなたの場に出す。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキの一番上のカードをエナゾーンに置く。このターン、次にルリグかシグニがアタックしたとき、その攻撃を一度無効にする。"
+		},
+		"comment": "見たかこれぞ伝統の一撃！　～スイボク～",
+		"illust": "アリオ"
+	},
+	{
+		"id": 632,
+		"no": "WX05-027",
+		"name": "堕落の才女　ルシファル",
+		"ruby": "ダラクノサイジョルシファル",
+		"rarity": "SR",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": "ウリス限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "このシグニが対戦相手のライフクロス1枚をクラッシュするたび、ターン終了時まで、対戦相手のシグニ1体のパワーを－10000する。"
+			},
+			"arrival": {
+				"cost": {
+					"黒": 3
+				},
+				"comment": "あなたのトラッシュからレベル3以下の＜悪魔＞のシグニを2体まで場に出す。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "どちらか1つを選ぶ。「すべての＜天使＞のシグニをバニッシュする。」「あなたのトラッシュから＜悪魔＞のシグニ1枚を手札に加えるか場に出す。」"
+		},
+		"comment": "堕ちたねー。　～ルシファル～",
+		"illust": "エムド"
+	},
+	{
+		"id": 633,
+		"no": "WX05-028",
+		"name": "遅起の花咲　アフロディテ",
+		"ruby": "オソオキノハナサキアフロディテ",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精像：天使",
+		"color": "白",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": {
+					"白": 1
+				},
+				"comment": "このシグニの正面の対戦相手のシグニがアタックしたとき、[白]を支払ってもよい。そうした場合、ターン終了時まで、このシグニのパワーは＋3000される。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "私を起こすのは誰？超眠い。　～アフロディテ～",
+		"illust": "紅緒"
+	},
+	{
+		"id": 634,
+		"no": "WX05-032",
+		"name": "弩砲　アヴェンジャー",
+		"ruby": "ドホウアヴェンジャー",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精武：ウェポン",
+		"color": "赤",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "対戦相手のパワー8000以下のシグニ1体をバニッシュする。"
+			},
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "対戦相手のパワー10000以下のシグニ1体をバニッシュする。"
+		},
+		"comment": "ドガガガガガガ！　～アヴェンジャー～",
+		"illust": "篠"
+	},
+	{
+		"id": 635,
+		"no": "WX05-033",
+		"name": "羅石　ペリドット",
+		"ruby": "ラセキペリドット",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精羅：宝石",
+		"color": "赤",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたの場に《羅石　サファイ》と《羅石　ルビル》がある場合、対戦相手のパワー15000以下のシグニ1体をバニッシュする。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "サファイ、ルビル、ねえ、私たちが友達よ。　～ペリドット～",
+		"illust": "甲冑"
+	},
+	{
+		"id": 636,
+		"no": "WX05-038",
+		"name": "ＳＰＩＲＡＬ",
+		"ruby": "スパイラル",
+		"rarity": "R",
+		"category": "スペル",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"青": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "あなたの場に《幻水姫　スパイラル・カーミラ》がある場合、このカードを使用するためのコストは[青]になる。\nあなたの手札が4枚以上の場合、対戦相手のシグニ1体をバニッシュする。"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "カードを1枚引く。その後、手札から《幻水姫　スパイラル・カーミラ》1枚を公開してもよい。そうした場合、追加でカードを1枚引く。"
+		},
+		"comment": "やーんもう、トルネーッド！　～カーミラ～",
+		"illust": "コウサク"
+	},
+	{
+		"id": 637,
+		"no": "WX05-044",
+		"name": "コードアンチ　マズフェイス",
+		"ruby": "コードアンチマズフェイス",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精械：古代兵器",
+		"color": "黒",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "ターン終了時まで、対戦相手のシグニ1体のパワーを－7000する。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "マーズ、スラッシュ！　～マズフェイス～",
+		"illust": "I☆LA"
+	},
+	{
+		"id": 638,
+		"no": "WX05-045",
+		"name": "ファイナル・ディストラクション",
+		"ruby": "ファイナルディストラクション",
+		"rarity": "R",
+		"category": "スペル",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 2,
+			"無": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "ウリス限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "対戦相手のすべてのシグニをバニッシュする。」を得る。"
+			},
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたの手札をすべて捨てる。そうした場合、すべてのシグニをバニッシュする。"
+		},
+		"comment": "バトルしたかったんでしょう？　～ウリス～",
+		"illust": "しおぼい"
+	},
+	{
+		"id": 639,
+		"no": "WX05-047",
+		"name": "大剣　レヴァテイン",
+		"ruby": "タイケンレヴァテイン",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精武：アーム/ウェポン",
+		"color": "白",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 6000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "このシグニが対戦相手のレベル4のシグニとバトルしたとき、その対戦相手のシグニをバニッシュする。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "爆砕の剣力、赤く光る！",
+		"illust": "イシバシヨウスケ"
+	},
+	{
+		"id": 640,
+		"no": "WX05-052",
+		"name": "ゲット・アルマンダル",
+		"ruby": "ゲットアルマンダル",
+		"rarity": "C",
+		"category": "スペル",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "以下の2つから2つまでを選ぶ。\n「あなたのデッキからレベル2以下の白のシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。」\n「あなたのルリグがレベル4以上で白の場合、あなたのデッキからシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。」"
+		},
+		"burst": null,
+		"comment": "ここにきて、その知識は止まらない。",
+		"illust": "希"
+	},
+	{
+		"id": 641,
+		"no": "WX05-059",
+		"name": "延命の選択",
+		"ruby": "エンメイノセンタク",
+		"rarity": "C",
+		"category": "スペル",
+		"type": null,
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"赤": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "以下の2つから2つまでを選ぶ。\n「対戦相手のパワー3000以下のシグニ1体をバニッシュする。」\n「あなたのルリグがレベル4以上で赤の場合、対戦相手のパワー10000以下のシグニ1体をバニッシュする。」"
+		},
+		"burst": null,
+		"comment": "選びな。両方？欲深いねえ。",
+		"illust": "松本エイト"
+	},
+	{
+		"id": 642,
+		"no": "WX05-063",
+		"name": "羅原　Ａｃ",
+		"ruby": "ラゲンアクチニウム",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精羅：原子",
+		"color": "青",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": "ミルルン限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのルリグがレベル4以上であるかぎり、このシグニのパワーは10000になる。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "飛距離ならナンバーワン！　～Ａｃ～",
+		"illust": "pepo"
+	},
+	{
+		"id": 643,
+		"no": "WX05-067",
+		"name": "伝統の近似値　マキエ",
+		"ruby": "デントウノキンジチマキエ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精像：美巧",
+		"color": "緑",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "黒がこれほど似合う緑も私くらいよ。　～マキエ～",
+		"illust": "紅緒"
+	},
+	{
+		"id": 644,
+		"no": "WX05-068",
+		"name": "方法論の対立　コラ",
+		"ruby": "ホウホウロンノタイリツコラ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精像：美巧",
+		"color": "緑",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": "アン限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのデッキの上からカードを2枚公開する。その中から＜美巧＞のシグニをすべて手札に加える。残りを好きな順番でデッキの一番下に置く。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャ―ジ1】"
+		},
+		"comment": "それコラよ。　～コラ～",
+		"illust": "甲冑"
+	},
+	{
+		"id": 645,
+		"no": "WX05-070",
+		"name": "度量ある明暗　アメコ",
+		"ruby": "ドリョウアルメイアンアメコ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精像：美巧",
+		"color": "緑",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "ＢＡＫＵＲＥＴＳＵ！ＳＡＫＵＲＥＴＳＵ！",
+		"illust": "パトリシア"
+	},
+	{
+		"id": 646,
+		"no": "WX05-071",
+		"name": "画一の条件　オリガミ",
+		"ruby": "カクイツノジョウケンオリガミ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精像：美巧",
+		"color": "緑",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 3000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "伝統の鏡ですわ、なんでも魅せられてしまうのです。　～オリガミ～",
+		"illust": "松本エイト"
+	},
+	{
+		"id": 647,
+		"no": "WX05-075",
+		"name": "コードアンチ　アラハバキ",
+		"ruby": "コードアンチアラハバキ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精械：古代兵器",
+		"color": "黒",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのトラッシュからレベル3以上の＜古代兵器＞のシグニ1枚を場に出す。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャ―ジ1】"
+		},
+		"comment": "わからないかな、もう運命とか超えてんだ！　～アラハバキ～",
+		"illust": "パトリシア"
+	},
+	{
+		"id": 648,
+		"no": "PR-100",
+		"name": "アイドル・ディフェンス (カードゲーマーvol.19 付録)",
+		"ruby": "アイドルディフェンス",
+		"rarity": "PR",
+		"category": "アーツ",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 1,
+			"無": 7
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【アタックフェイズ】\r\nこのターン、対戦相手がアーツまたはスペルを使用していた場合、このアーツを使用するためのコストは[白×1][無×4]になる。両方を使用していた場合、このアーツを使用するためのコストは[白×0]になる。\r\nいずれか1つを選ぶ。\r\n「このターン、対戦相手のシグニアタックステップをスキップする。」\r\n「このターン、対戦相手のルリグアタックステップをスキップする。」"
+		},
+		"burst": null,
+		"comment": "一見クール、本当は熱い&#9829;を持っています。　～川上愛美～",
+		"illust": "繭咲 悠"
+	},
+	{
+		"id": 649,
+		"no": "WX05-001",
+		"name": "創世の巫女　マユ",
+		"ruby": "ソウセイノミコマユ",
+		"rarity": "LR",
+		"category": "ルリグ",
+		"type": null,
+		"color": "白",
+		"level": 5,
+		"glow": null,
+		"cost": null,
+		"limit": 12,
+		"power": 0,
+		"term": "タマ/イオナ",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのルリグトラッシュからすべてのルリグをこのカードの下に置き、すべての白と黒のアーツをルリグデッキに戻す。"
+			},
+			"starting": {
+				"cost": null,
+				"comment": "ターン終了時まで、対戦相手のすべてのシグニは能力を失う。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "私は、受け入れる。最後の選択を…。　～マユ～",
+		"illust": "keypot"
+	},
+	{
+		"id": 650,
+		"no": "WX05-004",
+		"name": "五型緑姫",
+		"ruby": "ゴガタミドリコ",
+		"rarity": "LR",
+		"category": "ルリグ",
+		"type": null,
+		"color": "緑",
+		"level": 5,
+		"glow": {
+			"緑": 3
+		},
+		"cost": null,
+		"limit": 12,
+		"power": 0,
+		"term": "緑子",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "このルリグはあなたのルリグトラッシュにあるすべてのルリグのの能力を持つ。"
+			},
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのデッキの一番上のカードをライフクロスに加える。"
+			},
+			"starting": {
+				"cost": null,
+				"comment": null
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ああ、僕は、君のルリグでよかった。　～緑姫～",
+		"illust": "蟹丹"
+	},
+	{
+		"id": 651,
+		"no": "WX05-006",
+		"name": "虚無の閻魔　ウリス",
+		"ruby": "キョムノエンマウリス",
+		"rarity": "LR",
+		"category": "ルリグ",
+		"type": null,
+		"color": "無",
+		"level": 5,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": "ウリス",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのエナゾーンにあるすべてのカードは【マルチエナ】を持つ。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": {
+					"白": 1,
+					"赤": 1,
+					"青": 1,
+					"緑": 1,
+					"黒": 1,
+					"無": 1
+				},
+				"comment": "あなたの手札を1枚選ぶ。対戦相手は[白][赤][青][緑][黒][無]から1つを宣言する。そのカードを公開し、それが宣言されたアイコンを持つカードではない場合、対戦相手のすべてのシグニをトラッシュに置く。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ねえ、めちゃくちゃにしたいでしょぉ。　～ウリス～",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 652,
+		"no": "WX05-007",
+		"name": "ラスト・セレクト",
+		"ruby": "ラストセレクト",
+		"rarity": "LC",
+		"category": "アーツ",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 1,
+			"黒": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "タマ/イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\nあなたのルリグの下からカード4枚をルリグトラッシュに置く。そうした場合、対戦相手のシグニ1体をトラッシュに置く。"
+		},
+		"burst": null,
+		"comment": "光への憧れを、解き放つ…！",
+		"illust": "単ル"
+	},
+	{
+		"id": 653,
+		"no": "WX05-008",
+		"name": "遊月・伍",
+		"ruby": "ユヅキゴ",
+		"rarity": "LC",
+		"category": "ルリグ",
+		"type": null,
+		"color": "赤",
+		"level": 5,
+		"glow": {
+			"赤": 3
+		},
+		"cost": null,
+		"limit": 12,
+		"power": 0,
+		"term": "ユヅキ",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "対戦相手のエナゾーンからカードを3枚までトラッシュに置く。"
+			},
+			"starting": {
+				"cost": null,
+				"comment": "対戦相手のエナゾーンからカード1枚をトラッシュに置く。この能力は1ターンに一度しか使用できない。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ねえ、るう子さ、私たちはきっと幸せになれるよね。　～ユヅキ～",
+		"illust": "れいあきら"
+	},
+	{
+		"id": 654,
+		"no": "WX05-009",
+		"name": "一燭即発",
+		"ruby": "イッショクソクハツ",
+		"rarity": "LC",
+		"category": "アーツ",
+		"type": null,
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"赤": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\nあなたのアップ状態の＜龍獣＞のシグニ1体をダウンする。そうした場合、パワーが、この方法でダウンしたシグニのパワー以下の対戦相手のシグニ1体をバニッシュする。"
+		},
+		"burst": null,
+		"comment": "龍の力、しかとその目に！",
+		"illust": "かざあな"
+	},
+	{
+		"id": 655,
+		"no": "WX05-011",
+		"name": "ミルルン・ティコ",
+		"ruby": "ミルルンティコ",
+		"rarity": "LC",
+		"category": "ルリグ",
+		"type": null,
+		"color": "青",
+		"level": 5,
+		"glow": {
+			"青": 3
+		},
+		"cost": null,
+		"limit": 12,
+		"power": 0,
+		"term": "ミルルン",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手はスペルを使用できない。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "あなたのデッキの上からカードを5枚見る。その中から好きな枚数を好きな順番でデッキの一番下に置き、残りを好きな順番でデッキの一番上に戻す。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "未来でまってるるーん！　～ミルルン～",
+		"illust": "I☆LA"
+	},
+	{
+		"id": 656,
+		"no": "WX05-012",
+		"name": "フォーチューン・ファイブ",
+		"ruby": "フォーチューンファイブ",
+		"rarity": "LC",
+		"category": "アーツ",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"青": 1,
+			"無": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\nあなたのデッキの上からカードを5枚公開する。その中のそれぞれ名前の異なる＜原子＞のシグニの枚数を数える。その後、それが3枚以上の場合、対戦相手のシグニ1体をダウンし凍結する。それが4枚以上の場合、カードを1枚引く。それが5枚の場合、対戦相手のシグニ1体をバニッシュする。その後、公開したカードを好きな順番でデッキの一番下に置く。（条件を満たした効果をすべて発動できる）"
+		},
+		"burst": null,
+		"comment": "眩い光が放つ、有用すぎるものども。",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 657,
+		"no": "WX05-015",
+		"name": "ヘイト・インプレス",
+		"ruby": "ヘイトインプレス",
+		"rarity": "LC",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 1,
+			"無": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\nあなたの＜毒牙＞のシグニ1体を場からトラッシュに置く。そうした場合、ターン終了時まで、対戦相手のすべてのシグニのパワーをこの方法でトラッシュに置いたシグニのレベル1につき、－2000する。"
+		},
+		"burst": null,
+		"comment": "やっ…",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 658,
+		"no": "WX05-018",
+		"name": "原槍　アークエナジェ",
+		"ruby": "ゲンソウアークエナジェ",
+		"rarity": "SR",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 5,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 15000,
+		"term": "タマ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手は自分のエナフェイズをスキップする。"
+			},
+			"arrival": {
+				"cost": {
+					"白": 3
+				},
+				"comment": "あなたのデッキから＜アーム＞のシグニを2枚まで探して場に出す。その後、デッキをシャッフルする。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキからカード1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"comment": "始めの少女の本当の願い。満たされず。",
+		"illust": "しおぼい"
+	},
+	{
+		"id": 659,
+		"no": "WX05-019",
+		"name": "コードラビリンス　ルーブル",
+		"ruby": "コードラビリンスルーブル",
+		"rarity": "SR",
+		"category": "シグニ",
+		"type": "精械：迷宮",
+		"color": "白",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "このシグニの正面のシグニは能力を失う。　"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたの次のターン、対戦相手の場にあるすべてのシグニは能力を失う。あなたはカードを1枚引く。"
+		},
+		"comment": "我、最高にして最大の知識なり。　～ルーブル～",
+		"illust": "ますん"
+	},
+	{
+		"id": 660,
+		"no": "WX05-026",
+		"name": "コードアンシエンツ　ネクロノミコ",
+		"ruby": "コードアンシエンツネクロノミコ",
+		"rarity": "SR",
+		"category": "シグニ",
+		"type": "精械：古代兵器",
+		"color": "黒",
+		"level": 5,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 15000,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのトラッシュから＜古代兵器＞のシグニ1枚が場に出たとき、あなたのトラッシュからカード1枚を手札に加える。この効果は1ターンに一度しか発動しない。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキからシグニ1枚を探してトラッシュに置く。その後、デッキをシャッフルし、あなたのトラッシュからカード1枚を手札に加える。"
+		},
+		"comment": "そのとおりだったんだね？ゲイン。　～ネクロノミコ～",
+		"illust": "紅緒"
+	},
+	{
+		"id": 661,
+		"no": "WX05-029",
+		"name": "極槍　ゲイヴォルグ",
+		"ruby": "キョクソウゲイヴォルグ",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": {
+				"cost": {
+					"白": 1
+				},
+				"comment": "対戦相手のシグニ1体をトラッシュに置く。この能力はこのシグニのパワーが12000以上の場合にしか使用できない。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "デッドエンド、オーヴァードライブ！　～ゲイヴォルグ～",
+		"illust": "トリダモノ"
+	},
+	{
+		"id": 662,
+		"no": "WX05-030",
+		"name": "ゲット・グリモア",
+		"ruby": "ゲットグリモア",
+		"rarity": "R",
+		"category": "スペル",
+		"type": null,
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"白": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "タマ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "手札から＜アーム＞のシグニ1枚を公開する。この方法で公開したシグニと同じ名前のシグニを3枚まであなたのデッキから探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "手札から＜アーム＞のシグニを1枚捨てる。そうした場合、あなたのデッキから＜アーム＞のシグニを2枚まで探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"comment": "宝剣たちよ、私に力を！",
+		"illust": "水玉子"
+	},
+	{
+		"id": 663,
+		"no": "WX05-031",
+		"name": "幻竜　ゴッドラ",
+		"ruby": "ゲンリュウゴッドラ",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精生：龍獣",
+		"color": "赤",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 15000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "いわゆる、ゴッド！神竜よ！　～ゴッドラ～",
+		"illust": "芥川　明"
+	},
+	{
+		"id": 664,
+		"no": "WX05-034",
+		"name": "至宝の欠片",
+		"ruby": "シホウノカケラ",
+		"rarity": "R",
+		"category": "スペル",
+		"type": null,
+		"color": "赤",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"赤": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "花代限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "このスペルを使用するためのコストはあなたのライフクロス1枚につき、[無×1]増える。\nターン終了時まで、あなたのすべての＜鉱石＞と＜宝石＞のシグニは【ダブルクラッシュ】を得る。"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "このターンと次のターン、あなたのシグニゾーンの中央にあるシグニは【ダブルクラッシュ】を得る。"
+		},
+		"comment": "美しすぎる弩級の一撃！",
+		"illust": "I☆LA"
+	},
+	{
+		"id": 665,
+		"no": "WX05-035",
+		"name": "羅原　Ｒｎ",
+		"ruby": "ラゲンラドン",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精羅：原子",
+		"color": "青",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 15000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": null,
+		"illust": "mado*pen"
+	},
+	{
+		"id": 666,
+		"no": "WX05-036",
+		"name": "幻水　ジンベイ",
+		"ruby": "ゲンスイジンベイ",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精生：水獣",
+		"color": "青",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのアタックフェイズ開始時、あなたのすべての＜水獣＞のシグニをアップする。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "カードを2枚引く。その後、手札を1枚捨てる。"
+			},
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたは手札を1枚捨てる。その後、対戦相手の手札を2枚見ないで選び、捨てさせる。"
+		},
+		"comment": "すごく大きいです。　～ジンベイ～",
+		"illust": "イチノセ奏"
+	},
+	{
+		"id": 667,
+		"no": "WX05-037",
+		"name": "コードアート　Ｓ・Ｐ・Ｋ",
+		"ruby": "コードアートスピーカー",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精械：電機",
+		"color": "青",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "対戦相手のシグニ1体を凍結する。その後、対戦相手のすべてのシグニが凍結状態である場合、対戦相手は手札を1枚捨てる。（凍結状態のシグニは、そのシグニのアップフェイズ終了時に凍結状態ではなくなる）"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "騒音がいい？静かさがいい？　～Ｓ・Ｐ・Ｋ～",
+		"illust": "コウサク"
+	},
+	{
+		"id": 668,
+		"no": "WX05-039",
+		"name": "制限された表現　ドット",
+		"ruby": "セイゲンサレタヒョウゲンドット",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精像：美巧",
+		"color": "緑",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 15000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "トントンギガギガ　～ドット～",
+		"illust": "安藤周記"
+	},
+	{
+		"id": 669,
+		"no": "WX05-040",
+		"name": "羅稙　サクラ",
+		"ruby": "ラショクサクラ",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精羅：植物",
+		"color": "緑",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのメインフェイズの間、対戦相手のシグニ1体がバニッシュされるたび、あなたのデッキの一番上のカードをエナゾーンに置く。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキの一番上のカードをエナゾーンに置く。その後、あなたのエナゾーンからカードを1枚まで手札に加える。"
+		},
+		"comment": "花の歌を、うたいましょう。　～サクラ～",
+		"illust": "7010"
+	},
+	{
+		"id": 670,
+		"no": "WX05-041",
+		"name": "幻獣　ライノ",
+		"ruby": "ゲンジュウライノ",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精生：地獣",
+		"color": "緑",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "ターン終了時まで、あなたの＜空獣＞または＜地獣＞のシグニ1体は【ランサー】を得る。（【ランサー】を持つシグニがバトルで対戦相手のシグニをバニッシュした場合、それは対戦相手のライフクロス1枚をクラッシュする）"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "おちゃのこサイサイッ！　～ライノ～",
+		"illust": "イチノセ奏"
+	},
+	{
+		"id": 671,
+		"no": "WX05-042",
+		"name": "増武",
+		"ruby": "ゾウブ",
+		"rarity": "R",
+		"category": "スペル",
+		"type": null,
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"緑": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "このターン、あなたのメインフェイズの間、あなたのアップ状態の＜植物＞のシグニ1体がダウンしたとき、それがこのターンで3回目である場合、対戦相手のシグニ1体をバニッシュし、あなたのエナゾーンからカードを1枚手札に加え、あなたはカードを1枚引く。このカードの効果は1ターンに一度しか発動しない。"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキの一番上のカードをエナゾーンに置く。その後、あなたのエナゾーンにあるカードが4枚以下の場合、追加であなたのデッキの一番上のカードをエナゾーンに置く。"
+		},
+		"comment": "いわゆる、これ…なに？　～ライアン～",
+		"illust": "蟹丹"
+	},
+	{
+		"id": 672,
+		"no": "WX05-043",
+		"name": "フィア＝ヴァイアル",
+		"ruby": "フィアヴァイアル",
+		"rarity": "R",
+		"category": "シグニ",
+		"type": "精武：毒牙",
+		"color": "黒",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 15000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "パンドラボックスが、あいてしまう。",
+		"illust": "茶ちえ"
+	},
+	{
+		"id": 673,
+		"no": "WX05-046",
+		"name": "コードメイズ　サグファミ",
+		"ruby": "コードメイズサグファミ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精械：迷宮",
+		"color": "白",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "対戦相手の場にあるすべてのシグニを、好きなように配置し直してもよい。その後、カードを1枚引く。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャ―ジ1】"
+		},
+		"comment": "えへへ、みえちゃった？　～サグファミ～",
+		"illust": "単ル"
+	},
+	{
+		"id": 674,
+		"no": "WX05-048",
+		"name": "コードメイズ　メトロン",
+		"ruby": "コードメイズメトロン",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精械：迷宮",
+		"color": "白",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場に＜迷宮＞のシグニが3体あるかぎり、あなたのすべてのシグニのパワーを＋2000する。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "迷い込んだあなたへ、明日をあげるわ。　～メトロン～",
+		"illust": "イチゼン"
+	},
+	{
+		"id": 675,
+		"no": "WX05-049",
+		"name": "中槍　ブルナク",
+		"ruby": "チュウソウブルナク",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": {
+				"cost": {
+					"白": 2,
+					"無": 1
+				},
+				"comment": "あなたのデッキから＜アーム＞または＜ウェポン＞のシグニを合計2枚まで探して公開し手札に加える。その後、デッキをシャッフルする。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "格好いい名前ね、私？　～ブルナク～",
+		"illust": "ヒロヲノリ"
+	},
+	{
+		"id": 676,
+		"no": "WX05-050",
+		"name": "コードメイズ　ミッシェル",
+		"ruby": "コードメイズミッシェル",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精械：迷宮",
+		"color": "白",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 2000,
+		"term": "イオナ限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": {
+				"cost": {
+					"白": 3
+				},
+				"comment": "対戦相手のレベル3以下のシグニ1体をデッキに戻す。その後、対戦相手は自分のデッキをシャッフルする。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "小さく見える？あんた愚かね。　～ミッシェル～",
+		"illust": "モレシャン"
+	},
+	{
+		"id": 677,
+		"no": "WX05-051",
+		"name": "小剣　エンゲツ",
+		"ruby": "ショウケンエンゲツ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 2000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": {
+					"白": 1
+				},
+				"comment": "このシグニがバニッシュされたとき、[白]を支払ってもよい。そうした場合、あなたのデッキから《中槍　ブルナク》1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "カードを1枚引く。"
+		},
+		"comment": "カモン、ブルナク！　～エンゲツ～",
+		"illust": "イシバシヨウスケ"
+	},
+	{
+		"id": 678,
+		"no": "WX05-053",
+		"name": "幻竜　エインガナ",
+		"ruby": "ゲンリュウエインガナ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精生：龍獣",
+		"color": "赤",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "虹をつかさどる龍、その足元には幸福が宿るという。",
+		"illust": "ナダレ"
+	},
+	{
+		"id": 679,
+		"no": "WX05-054",
+		"name": "幻竜　リントブルム",
+		"ruby": "ゲンリュウリントブルム",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精生：龍獣",
+		"color": "赤",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの他のすべての＜龍獣＞のシグニのパワーを＋2000する。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキから＜龍獣＞のシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"comment": "輝かしき王族の末裔ここに。",
+		"illust": "コト"
+	},
+	{
+		"id": 680,
+		"no": "WX05-055",
+		"name": "幻竜　カンニャ",
+		"ruby": "ゲンリュウカンニャ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精生：龍獣",
+		"color": "赤",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "にゃー。　～カンニャ～",
+		"illust": "聡間まこと"
+	},
+	{
+		"id": 681,
+		"no": "WX05-056",
+		"name": "幻竜　コモド",
+		"ruby": "ゲンリュウコモド",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精生：龍獣",
+		"color": "赤",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": "ユヅキ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのルリグがレベル4以上であるかぎり、このシグニのパワーは10000になる。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "コモね、すーぐおーきくなるんだよ。ほんとだよ？　～コモド～",
+		"illust": "かにかま"
+	},
+	{
+		"id": 682,
+		"no": "WX05-057",
+		"name": "幻竜　クエレプ",
+		"ruby": "ゲンリュウクエレプ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精生：龍獣",
+		"color": "赤",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 3000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "当然のごとくいかつくなった私だけど、ほんとはかわいい感じが良かったんだ。えーっと、かわいい？そうかな。いったい誰がこんな姿を望んだんだろうね？ルリグ？なにそれ。　～クエレプ～",
+		"illust": "ナダレ"
+	},
+	{
+		"id": 683,
+		"no": "WX05-058",
+		"name": "幻竜　トカゲ",
+		"ruby": "ゲンリュウトカゲ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精生：龍獣",
+		"color": "赤",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 1000,
+		"term": "ユヅキ限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場にある他のすべての＜龍獣＞のシグニのレベル1につき、このシグニのパワーを＋1000する。（他にレベル2とレベル3のシグニがある場合、このシグニのパワーは＋5000される）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "これでもドラゴンさ。なーんてね。　～トカゲ～",
+		"illust": "トリダモノ"
+	},
+	{
+		"id": 684,
+		"no": "WX05-060",
+		"name": "羅原　Ｍｎ",
+		"ruby": "ラゲンマンガン",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精羅：原子",
+		"color": "青",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "意志の固さならナンバーワン！　～Ｍｎ～",
+		"illust": "ぶんたん"
+	},
+	{
+		"id": 685,
+		"no": "WX05-061",
+		"name": "羅原　Ｔｈ",
+		"ruby": "ラゲントリウム",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精羅：原子",
+		"color": "青",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": "ミルルン限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのデッキの上からカードを5枚公開する。その中から＜原子＞のシグニ1枚を手札に加える。残りを好きな順番でデッキの一番下に置く。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャ―ジ1】"
+		},
+		"comment": "涼しさならナンバーワン。　～Ｔｈ～",
+		"illust": "arihato"
+	},
+	{
+		"id": 686,
+		"no": "WX05-062",
+		"name": "羅原　Ｔｉ",
+		"ruby": "ラゲンチタン",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精羅：原子",
+		"color": "青",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "硬さならナンバーワン。　～Ｔｉ～",
+		"illust": "ときち"
+	},
+	{
+		"id": 687,
+		"no": "WX05-064",
+		"name": "羅原　Ｓ",
+		"ruby": "ラゲンイオウ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精羅：原子",
+		"color": "青",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 3000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "純白さならナンバーワン！　～Ｓ～",
+		"illust": "篠"
+	},
+	{
+		"id": 688,
+		"no": "WX05-065",
+		"name": "羅原　Ｃｒ",
+		"ruby": "ラゲンクロム",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精羅：原子",
+		"color": "青",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 1000,
+		"term": "ミルルン限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場にある他のすべての＜原子＞のシグニのレベル1につき、このシグニのパワーを＋1000する。（他にレベル2とレベル3のシグニがある場合、このシグニのパワーは＋5000される）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "無垢さならナンバーワン。　～Ｃｒ～",
+		"illust": "松本エイト"
+	},
+	{
+		"id": 689,
+		"no": "WX05-066",
+		"name": "ＲＡＩＮＹ",
+		"ruby": "レイニー",
+		"rarity": "C",
+		"category": "スペル",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"青": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "以下の2つから2つまでを選ぶ。\n「対戦相手は手札を1枚捨てる。」\n「あなたのルリグがレベル4以上で青の場合、あなたはカードを3枚引き、その後、手札を1枚捨てる。」"
+		},
+		"burst": null,
+		"comment": "雨雨フレフレ私のためにー！",
+		"illust": "エムド"
+	},
+	{
+		"id": 690,
+		"no": "WX05-069",
+		"name": "鮮明な名宴　ポップ",
+		"ruby": "センメイナメイエンポップ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精像：美巧",
+		"color": "緑",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": "アン限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたのルリグがレベル4以上であるかぎり、このシグニのパワーは10000になる。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "原色の炸裂で、最新の世界へ案内するわ。　～ポップ～",
+		"illust": "茶ちえ"
+	},
+	{
+		"id": 691,
+		"no": "WX05-072",
+		"name": "落書の是認　クレヨン",
+		"ruby": "ラクガキノゼニンクレヨン",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精像：美巧",
+		"color": "緑",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 1000,
+		"term": "アン限定",
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場にある他のすべての＜美巧＞のシグニのレベル1につき、このシグニのパワーを＋1000する。（他にレベル2とレベル3のシグニがある場合、このシグニのパワーは＋5000される）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "描き描かれ、美巧は強くなるのです！　～クレヨン～",
+		"illust": "かにかま"
+	},
+	{
+		"id": 692,
+		"no": "WX05-073",
+		"name": "咆哮",
+		"ruby": "ホウコウ",
+		"rarity": "C",
+		"category": "スペル",
+		"type": null,
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"緑": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "以下の2つから2つまでを選ぶ。\n「ターン終了時まで、あなたのすべてのシグニのパワーを＋2000する。」\n「あなたのルリグがレベル4以上で緑の場合、ターン終了時まで、あなたのすべてのシグニのパワーを＋5000する。」"
+		},
+		"burst": null,
+		"comment": "うおぉああ！どれゃああ！わー！",
+		"illust": "かにかま"
+	},
+	{
+		"id": 693,
+		"no": "WX05-074",
+		"name": "ドライ＝スポアー",
+		"ruby": "ドライスポアー",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精武：毒牙",
+		"color": "黒",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "奉仕するよッ！胞子だけにねッ！　～スポアー～",
+		"illust": "オーミー"
+	},
+	{
+		"id": 694,
+		"no": "WX05-076",
+		"name": "魅惑の魔道　ロキ",
+		"ruby": "ミワクノマドウロキ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの他のすべての＜悪魔＞のシグニのパワーを＋2000する。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキから＜悪魔＞のシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"comment": "ぼくって美しいだろ？　～ロキ～",
+		"illust": "イシバシヨウスケ"
+	},
+	{
+		"id": 695,
+		"no": "WX05-077",
+		"name": "ツヴァイ＝コブラ",
+		"ruby": "ツヴァイコブラ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精武：毒牙",
+		"color": "黒",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "ほおら、すぐ回る。コロッと逝くの。　～コブラ～",
+		"illust": "アリオ"
+	},
+	{
+		"id": 696,
+		"no": "WX05-078",
+		"name": "堕楽の一目　アーリマン",
+		"ruby": "ダラクノヒトメアーリマン",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": "ウリス限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "ターン終了時まで、対戦相手のシグニ1体のパワーを－5000する。（パワーが0以下のシグニはバニッシュされる）"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ありまー！かわいそー。　～アーリマン～",
+		"illust": "イチゼン"
+	},
+	{
+		"id": 697,
+		"no": "WX05-079",
+		"name": "アイン＝ガス",
+		"ruby": "アインガス",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精武：毒牙",
+		"color": "黒",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 3000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "多い輪廻ね。これが終わったら、どうなるのかしら。　～ガス～",
+		"illust": "はるのいぶき"
+	},
+	{
+		"id": 698,
+		"no": "WX05-080",
+		"name": "使命の怠惰　ヘカーテ",
+		"ruby": "シメイノタイダヘカーテ",
+		"rarity": "C",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 2000,
+		"term": "ウリス限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "このシグニをあなたの＜悪魔＞のシグニ1体の【チャーム】にする。（【チャーム】であるカードはシグニ1体につき1枚まで、そのシグニの下に裏向きで置かれる）"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ひとこと言ってくれればよかったのに。　～ヘカーテ～",
+		"illust": "ぶんたん"
+	},
+	{
+		"id": 699,
+		"no": "WX05-081",
+		"name": "リバイブ・フレア",
+		"ruby": "リバイブフレア",
+		"rarity": "C",
+		"category": "スペル",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "以下の2つから2つまでを選ぶ。\n「あなたのデッキの上からカードを3枚トラッシュに置く。その後、あなたのトラッシュからレベル2以下の黒のシグニ1枚を場に出す。」\n「あなたのルリグがレベル4以上で黒の場合、あなたのトラッシュから黒のシグニ1枚を場に出す。」"
+		},
+		"burst": null,
+		"comment": "轟音、火柱、悪魔は黒い炎を放つ。",
+		"illust": "mado*pen"
+	},
+	{
+		"id": 700,
+		"no": "PR-025",
+		"name": "再三再四 (WIXOSS PARTY 2015年1-2月度congraturationカード)",
+		"ruby": "ウェイクアップ",
+		"rarity": "PR",
+		"category": "アーツ",
+		"type": null,
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"緑": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\nあなたのエナゾーンからカードを2枚まで手札に加える。"
+		},
+		"burst": null,
+		"comment": "また私の役に立てるんだから、張り切ってお願いしますっ！",
+		"illust": "めきめき"
+	},
+	{
+		"id": 701,
+		"no": "PR-102",
+		"name": "星占の巫女　リメンバ・デッドナイト (「selector infected WIXOSS-peeping analyze-」第1巻 付録)",
+		"ruby": "センセイノミコリメンバデッドナイト",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "リメンバ/ピルルク",
+		"color": "白",
+		"level": 5,
+		"glow": {
+			"白": 1,
+			"青": 2
+		},
+		"cost": null,
+		"limit": 12,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "対戦相手の凍結状態であるシグニは能力を失う。"
+			},
+			"arrival": null,
+			"starting": {
+				"cost": null,
+				"comment": "対戦相手のシグニ1体を凍結する。すでにそのシグニが凍結状態である場合、凍結する代わりにバニッシュする。"
+			},
+			"comment": null
+		},
+		"burst": null,
+		"comment": "ゆっくり、休んでくださいね。　～リメンバ～",
+		"illust": "鈴木マナツ"
+	},
+	{
+		"id": 702,
+		"no": "PR-103",
+		"name": "ステコ (「WIXOSS -Hobbystation Best selector Tryout」景品)",
+		"ruby": "ステコ",
+		"rarity": "PR",
+		"category": "ルリグ",
+		"type": "タマ",
+		"color": "白",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "ホヴィクロスパーティってよむー！　～ステコ～",
+		"illust": "長月みそか"
+	},
+	{
+		"id": 703,
+		"no": "PR-105",
+		"name": "大剣　デュランダ (WIXOSS PARTY参加賞selectors pack vol4)",
+		"ruby": "タイケンデュランダ",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 8000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場にあるシグニ3体がそれぞれ共通の色を持たないかぎり、このシグニのパワーは15000になり、対戦相手の効果を受けない。 （無色は色に含まれないので、場のシグニが白、無色、無色の場合、この能力は発動する）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキからレベル3以下のシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"comment": "私は様々な場所で傭兵をしてきた。色々な色に染まるのは容易だよ。　～デュランダ～",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 704,
+		"no": "PR-106",
+		"name": "羅石　ルリル (WIXOSS PARTY参加賞selectors pack vol4)",
+		"ruby": "ラセキルリル",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精羅：宝石",
+		"color": "赤",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのデッキの一番上を公開する。それが赤のカードではない場合、このシグニを場からトラッシュに置く。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "カードを1枚引く。"
+		},
+		"comment": "赤の他人……じゃないなら、お邪魔します！　～ルリル～",
+		"illust": "エムド"
+	},
+	{
+		"id": 705,
+		"no": "PR-107",
+		"name": "ＣＲＹＳＴＡＬ　ＳＥＡＬ (WIXOSS PARTY参加賞selectors pack vol4)",
+		"ruby": "クリスタルシール",
+		"rarity": "PR",
+		"category": "スペル",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": "ピルルク限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "あなたのシグニ1体をバニッシュする。そうした場合、対戦相手の手札を1枚見ないで選び、捨てさせる。"
+		},
+		"burst": null,
+		"comment": "手袋をおすすめするわ……。　～ピルルク～",
+		"illust": "紅緒"
+	},
+	{
+		"id": 706,
+		"no": "PR-108",
+		"name": "犠牲 (WIXOSS PARTY参加賞selectors pack vol4)",
+		"ruby": "ギセイ",
+		"rarity": "PR",
+		"category": "スペル",
+		"type": null,
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": "緑子限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "あなたのシグニ1体をバニッシュする。そうした場合、対戦相手のパワー12000以上のシグニ1体をバニッシュする。"
+		},
+		"burst": null,
+		"comment": "強い者は欲良く狙われる。",
+		"illust": "アリオ"
+	},
+	{
+		"id": 707,
+		"no": "PR-109",
+		"name": "好色の罪人　ベルフェーゴ (WIXOSS PARTY参加賞selectors pack vol4)",
+		"ruby": "コウショクノザイニンベルフェーゴ",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのデッキから＜悪魔＞のシグニ1枚を探してトラッシュに置く。その後、デッキをシャッフルする。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "さぁ、今日も悪魔ちゃん達を口説き落として、墜として、落とすわよー。　～ベルフェーゴ～",
+		"illust": "芥川　明"
+	},
+	{
+		"id": 708,
+		"no": "PR-110",
+		"name": "大剣　デュランダ (WIXOSSポイント引換 vol4)",
+		"ruby": "タイケンデュランダ",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精武：アーム",
+		"color": "白",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 8000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場にあるシグニ3体がそれぞれ共通の色を持たないかぎり、このシグニのパワーは15000になり、対戦相手の効果を受けない。 （無色は色に含まれないので、場のシグニが白、無色、無色の場合、この能力は発動する）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのデッキからレベル3以下のシグニ1枚を探して公開し手札に加える。その後、デッキをシャッフルする。"
+		},
+		"comment": "私は様々な場所で傭兵をしてきた。色々な色に染まるのは容易だよ。　～デュランダ～",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 709,
+		"no": "PR-111",
+		"name": "羅石　ルリル (WIXOSSポイント引換 vol4)",
+		"ruby": "ラセキルリル",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精羅：宝石",
+		"color": "赤",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのデッキの一番上を公開する。それが赤のカードではない場合、このシグニを場からトラッシュに置く。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "カードを1枚引く。"
+		},
+		"comment": "赤の他人……じゃないなら、お邪魔します！　～ルリル～",
+		"illust": "エムド"
+	},
+	{
+		"id": 710,
+		"no": "PR-112",
+		"name": "ＣＲＹＳＴＡＬ　ＳＥＡＬ (WIXOSSポイント引換 vol4)",
+		"ruby": "クリスタルシール",
+		"rarity": "PR",
+		"category": "スペル",
+		"type": null,
+		"color": "青",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": "ピルルク限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "あなたのシグニ1体をバニッシュする。そうした場合、対戦相手の手札を1枚見ないで選び、捨てさせる。"
+		},
+		"burst": null,
+		"comment": "手袋をおすすめするわ……。　～ピルルク～",
+		"illust": "紅緒"
+	},
+	{
+		"id": 711,
+		"no": "PR-113",
+		"name": "犠牲 (WIXOSSポイント引換 vol4)",
+		"ruby": "ギセイ",
+		"rarity": "PR",
+		"category": "スペル",
+		"type": null,
+		"color": "緑",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": "緑子限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "あなたのシグニ1体をバニッシュする。そうした場合、対戦相手のパワー12000以上のシグニ1体をバニッシュする。"
+		},
+		"burst": null,
+		"comment": "強い者は欲良く狙われる。",
+		"illust": "アリオ"
+	},
+	{
+		"id": 712,
+		"no": "PR-114",
+		"name": "好色の罪人　ベルフェーゴ (WIXOSSポイント引換 vol4)",
+		"ruby": "コウショクノザイニンベルフェーゴ",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのデッキから＜悪魔＞のシグニ1枚を探してトラッシュに置く。その後、デッキをシャッフルする。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "さぁ、今日も悪魔ちゃん達を口説き落として、墜として、落とすわよー。　～ベルフェーゴ～",
+		"illust": "芥川　明"
+	},
+	{
+		"id": 713,
+		"no": "PR-115",
+		"name": "アンシエント・サプライズ (「selector infected WIXOSS」 BOX3 一部店舗購入特典)",
+		"ruby": "アンシエントサプライズ",
+		"rarity": "PR",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 1,
+			"無": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\n以下3つから1つを選ぶ。\n「すべてのプレイヤーは自分のデッキの上からカードを7枚トラッシュに置く。」\n「あなたのトラッシュからレベル3以下の＜古代兵器＞のシグニ1枚を場に出す。」\n「あなたのトラッシュにカードが10枚以上ある場合、ターン終了時まで、対戦相手のすべてのシグニのパワーを－5000する。20枚以上ある場合、代わりに、ターン終了時まで対戦相手のすべてのシグニのパワーを－8000する。」"
+		},
+		"burst": null,
+		"comment": "その存在が、私を強くする　～イオナ～",
+		"illust": "作画：冨岡寛　仕上げ：J.C.STAFF"
+	},
+	{
+		"id": 714,
+		"no": "PR-116",
+		"name": "サーバント　Ｑ (「史上最大のチョコレート争奪戦」上位賞)",
+		"ruby": "サーバントキャトル",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "これからは、私を使ってくれますか…？　～サーバントＱ～",
+		"illust": "村上ゆいち"
+	},
+	{
+		"id": 715,
+		"no": "PR-117",
+		"name": "サーバント　Ｔ (「史上最大のチョコレート争奪戦」上位賞)",
+		"ruby": "サーバントトロワ",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 8000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "さぁ、ここで私を使いなよ。　～サーバントＴ～",
+		"illust": "ナダレ"
+	},
+	{
+		"id": 716,
+		"no": "PR-118",
+		"name": "サーバント　Ｄ (「史上最大のチョコレート争奪戦」上位賞)",
+		"ruby": "サーバントデュオ",
+		"rarity": "PR",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "ここは私に任せなさい！　～サーバントＤ～",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 717,
+		"no": "SP03-001",
+		"name": "獄卒の閻魔　ウリス (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "ゴクソツノエンマウリス",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "ウリス",
+		"color": "黒",
+		"level": 4,
+		"glow": {
+			"黒": 3
+		},
+		"cost": null,
+		"limit": 11,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "あなたの場に《堕落の砲女　メツム》があるかぎり、あなたのトラッシュが20枚以上ある間、あなたのすべてのシグニのパワーを＋2000する。"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "後悔させてあげるわ！　～ウリス～",
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 718,
+		"no": "SP03-002",
+		"name": "阿鼻の閻魔　ウリス (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "アビノエンマウリス",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "ウリス",
+		"color": "黒",
+		"level": 3,
+		"glow": {
+			"黒": 2
+		},
+		"cost": null,
+		"limit": 8,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "あと少しでおしまいよ。　～ウリス～",
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 719,
+		"no": "SP03-003",
+		"name": "衆合の閻魔　ウリス (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "シュゴウノエンマウリス",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "ウリス",
+		"color": "黒",
+		"level": 2,
+		"glow": {
+			"黒": 1
+		},
+		"cost": null,
+		"limit": 5,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "みて、この槍。きれいでしょう？　～ウリス～",
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 720,
+		"no": "SP03-004",
+		"name": "灼熱の閻魔　ウリス (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "シャクネツノエンマウリス",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "ウリス",
+		"color": "黒",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 2,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "いいわぁ、こうでなくちゃ。　～ウリス～",
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 721,
+		"no": "SP03-005",
+		"name": "閻魔　ウリス (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "エンマウリス",
+		"rarity": "SP",
+		"category": "ルリグ",
+		"type": "ウリス",
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "バトル、したかったんでしょう？　～ウリス～",
+		"illust": "J.C.STAFF"
+	},
+	{
+		"id": 722,
+		"no": "SP03-006",
+		"name": "モーメント・パニッシュ (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "モーメントパニッシュ",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\nターン終了時まで、対戦相手のシグニ1体のパワーを－7000する。（パワーが0以下のシグニはバニッシュされる）"
+		},
+		"burst": null,
+		"comment": "気が付けば、もう戻れない。",
+		"illust": "bomi"
+	},
+	{
+		"id": 723,
+		"no": "SP03-007",
+		"name": "エターナル・パニッシュ (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "エターナルパニッシュ",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 3
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\nターン終了時まで、対戦相手のシグニ1体のパワーを－15000する。（パワーが0以下のシグニはバニッシュされる）"
+		},
+		"burst": null,
+		"comment": "もう、いないの？早いわね。",
+		"illust": "arihato"
+	},
+	{
+		"id": 724,
+		"no": "SP03-008",
+		"name": "グレイブ・アウト (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "グレイブアウト",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 5
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "ウリス限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】\nあなたのトラッシュからシグニを3枚まで手札に加える。"
+		},
+		"burst": null,
+		"comment": "ふふ。何度でも使ってあげる。　～ウリス～",
+		"illust": "モレシャン"
+	},
+	{
+		"id": 725,
+		"no": "SP03-009",
+		"name": "グレイブ・ガット (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "グレイブガット",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": "ウリス限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\nどちらか1つを選ぶ。\n「あなたのトラッシュから＜悪魔＞のシグニを2枚まで手札に加える。」\n「手札をすべて捨てる。その後、あなたのトラッシュから＜悪魔＞のシグニを2枚まで場に出す。」"
+		},
+		"burst": null,
+		"comment": "こっち側は温かいわよ？　～ウリス～",
+		"illust": "アカバネ"
+	},
+	{
+		"id": 726,
+		"no": "SP03-010",
+		"name": "サウザンド・パニッシュ (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "サウザンドパニッシュ",
+		"rarity": "SP",
+		"category": "アーツ",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "使用タイミング【メインフェイズ】【アタックフェイズ】\nターン終了時まで、対戦相手のシグニ1体のパワーを－2000する。（パワーが0以下のシグニはバニッシュされる）"
+		},
+		"burst": null,
+		"comment": "終わりね。　～ウリス～",
+		"illust": "聡間まこと"
+	},
+	{
+		"id": 727,
+		"no": "SP03-011",
+		"name": "堕落の砲女　メツム (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "ダラクノホウジョメツム",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 4,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 12000,
+		"term": "ウリス限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "すべてのプレイヤーは自分のデッキの上からカードを7枚トラッシュに置く。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのトラッシュからカード1枚を手札に加える。"
+		},
+		"comment": "目をつぶって。一気に堕とすよ。　～メツム～",
+		"illust": "蟹丹"
+	},
+	{
+		"id": 728,
+		"no": "SP03-012",
+		"name": "廃悪の象徴　ベルゼ (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "ハイアクノショウチョウベルゼ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 10000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "エッヘン！切れ味知りたい？　～ベルゼ～",
+		"illust": "コト"
+	},
+	{
+		"id": 729,
+		"no": "SP03-013",
+		"name": "堕落の砲女　キャリ (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "ダラクノホウジョキャリ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 3,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": "ウリス限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "あなたのトラッシュにカードが10枚以上あるかぎり、このシグニのパワーを＋5000する。"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "カードを1枚引く。"
+		},
+		"comment": "奪うって、楽しいだけにゃ！　～キャリ～",
+		"illust": "安藤周記"
+	},
+	{
+		"id": 730,
+		"no": "SP03-014",
+		"name": "背徳の象徴　コスモ (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "ハイトクノショウチョウコスモ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 7000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "あら、ウリスさん？帰っていいんですかねぇ。　～コスモ～",
+		"illust": "ナダレ"
+	},
+	{
+		"id": 731,
+		"no": "SP03-015",
+		"name": "小悪の象徴　コオニ (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "コアクノショウチョウコオニ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 3000,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": ""
+		},
+		"burst": null,
+		"comment": "かわいいだって？やめてよ。　～コオニ～",
+		"illust": "よこえ"
+	},
+	{
+		"id": 732,
+		"no": "SP03-016",
+		"name": "堕落の砲女　サキュ (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "ダラクノホウジョサキュ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精像：悪魔",
+		"color": "黒",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 1000,
+		"term": "ウリス限定",
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": {
+				"cost": null,
+				"comment": "あなたのデッキの上からカードを3枚トラッシュに置く。"
+			},
+			"starting": null,
+			"comment": null
+		},
+		"burst": null,
+		"comment": "こんにちは！一緒に消えましょ！マジで！　～サキュ～",
+		"illust": "水玉子"
+	},
+	{
+		"id": 733,
+		"no": "SP03-017",
+		"name": "サーバント　Ｄ (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "サーバントデュオ",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 2,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 5000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "無はどんな闇にも迎合しない。",
+		"illust": "hitoto*"
+	},
+	{
+		"id": 734,
+		"no": "SP03-018",
+		"name": "サーバント　Ｏ (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "サーバントワン",
+		"rarity": "SP",
+		"category": "シグニ",
+		"type": "精元",
+		"color": "無",
+		"level": 1,
+		"glow": null,
+		"cost": null,
+		"limit": 0,
+		"power": 2000,
+		"term": null,
+		"guard": true,
+		"skill": {
+			"regular": {
+				"cost": null,
+				"comment": "【マルチエナ】（コストを支払う際に、このカードは全ての色を持つかのように扱う）"
+			},
+			"arrival": null,
+			"starting": null,
+			"comment": null
+		},
+		"burst": {
+			"cost": null,
+			"comment": "【エナチャージ1】"
+		},
+		"comment": "失われたものは、黒の少女に収斂する。",
+		"illust": "トリダモノ"
+	},
+	{
+		"id": 735,
+		"no": "SP03-019",
+		"name": "ホール・ダーク (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "ホールダーク",
+		"rarity": "SP",
+		"category": "スペル",
+		"type": null,
+		"color": "黒",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"黒": 1
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "ターン終了時まで、対戦相手のシグニ1体のパワーを－4000する。（パワーが0以下のシグニはバニッシュされる）"
+		},
+		"burst": null,
+		"comment": "だめっ！力が抜けていく…",
+		"illust": "かざあな"
+	},
+	{
+		"id": 736,
+		"no": "SP03-020",
+		"name": "想起する祝福 (「selector infected WIXOSS」 BOX3 初回限定特典)",
+		"ruby": "ソウキスルシュクフク",
+		"rarity": "SP",
+		"category": "スペル",
+		"type": null,
+		"color": "無",
+		"level": 0,
+		"glow": null,
+		"cost": {
+			"無": 2
+		},
+		"limit": 0,
+		"power": 0,
+		"term": null,
+		"guard": null,
+		"skill": {
+			"regular": null,
+			"arrival": null,
+			"starting": null,
+			"comment": "あなたのトラッシュからシグニ1枚を手札に加える。"
+		},
+		"burst": {
+			"cost": null,
+			"comment": "あなたのトラッシュからシグニ1枚を手札に加える。"
+		},
+		"comment": "失われた事物にさえ、ウィクロス因子は力を与えた。",
 		"illust": "単ル"
 	}
 ]
